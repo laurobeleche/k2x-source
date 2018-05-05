@@ -226,11 +226,11 @@ int CBase58Data::CompareTo(const CBase58Data& b58) const {
 }
 
 namespace {
-    class CkatanacoinAddressVisitor : public boost::static_visitor<bool> {
+    class CpsbrcoincoinAddressVisitor : public boost::static_visitor<bool> {
     private:
-        CkatanacoinAddress *addr;
+        CpsbrcoincoinAddress *addr;
     public:
-        CkatanacoinAddressVisitor(CkatanacoinAddress *addrIn) : addr(addrIn) { }
+        CpsbrcoincoinAddressVisitor(CpsbrcoincoinAddress *addrIn) : addr(addrIn) { }
 
         bool operator()(const CKeyID &id) const { return addr->Set(id); }
         bool operator()(const CScriptID &id) const { return addr->Set(id); }
@@ -250,28 +250,28 @@ namespace {
     };
 };
 
-bool CkatanacoinAddress::Set(const CKeyID &id) {
+bool CpsbrcoincoinAddress::Set(const CKeyID &id) {
     SetData(Params().Base58Prefix(CChainParams::PUBKEY_ADDRESS), &id, 20);
     return true;
 }
 
-bool CkatanacoinAddress::Set(const CScriptID &id) {
+bool CpsbrcoincoinAddress::Set(const CScriptID &id) {
     SetData(Params().Base58Prefix(CChainParams::SCRIPT_ADDRESS), &id, 20);
     return true;
 }
 
-bool CkatanacoinAddress::Set(const CTxDestination &dest) {
-    return boost::apply_visitor(CkatanacoinAddressVisitor(this), dest);
+bool CpsbrcoincoinAddress::Set(const CTxDestination &dest) {
+    return boost::apply_visitor(CpsbrcoincoinAddressVisitor(this), dest);
 }
 
-bool CkatanacoinAddress::IsValid() const {
+bool CpsbrcoincoinAddress::IsValid() const {
     bool fCorrectSize = vchData.size() == 20;
     bool fKnownVersion = vchVersion == Params().Base58Prefix(CChainParams::PUBKEY_ADDRESS) ||
                          vchVersion == Params().Base58Prefix(CChainParams::SCRIPT_ADDRESS);
     return fCorrectSize && fKnownVersion;
 }
 
-CTxDestination CkatanacoinAddress::Get() const {
+CTxDestination CpsbrcoincoinAddress::Get() const {
     if (!IsValid())
         return CNoDestination();
     uint160 id;
@@ -284,7 +284,7 @@ CTxDestination CkatanacoinAddress::Get() const {
         return CNoDestination();
 }
 
-bool CkatanacoinAddress::GetKeyID(CKeyID &keyID) const {
+bool CpsbrcoincoinAddress::GetKeyID(CKeyID &keyID) const {
     if (!IsValid() || vchVersion != Params().Base58Prefix(CChainParams::PUBKEY_ADDRESS))
         return false;
     uint160 id;
@@ -293,34 +293,34 @@ bool CkatanacoinAddress::GetKeyID(CKeyID &keyID) const {
     return true;
 }
 
-bool CkatanacoinAddress::IsScript() const {
+bool CpsbrcoincoinAddress::IsScript() const {
     return IsValid() && vchVersion == Params().Base58Prefix(CChainParams::SCRIPT_ADDRESS);
 }
 
-void CkatanacoinSecret::SetKey(const CKey& vchSecret) {
+void CpsbrcoincoinSecret::SetKey(const CKey& vchSecret) {
     assert(vchSecret.IsValid());
     SetData(Params().Base58Prefix(CChainParams::SECRET_KEY), vchSecret.begin(), vchSecret.size());
     if (vchSecret.IsCompressed())
         vchData.push_back(1);
 }
 
-CKey CkatanacoinSecret::GetKey() {
+CKey CpsbrcoincoinSecret::GetKey() {
     CKey ret;
     ret.Set(&vchData[0], &vchData[32], vchData.size() > 32 && vchData[32] == 1);
     return ret;
 }
 
-bool CkatanacoinSecret::IsValid() const {
+bool CpsbrcoincoinSecret::IsValid() const {
     bool fExpectedFormat = vchData.size() == 32 || (vchData.size() == 33 && vchData[32] == 1);
     bool fCorrectVersion = vchVersion == Params().Base58Prefix(CChainParams::SECRET_KEY);
     return fExpectedFormat && fCorrectVersion;
 }
 
-bool CkatanacoinSecret::SetString(const char* pszSecret) {
+bool CpsbrcoincoinSecret::SetString(const char* pszSecret) {
     return CBase58Data::SetString(pszSecret) && IsValid();
 }
 
-bool CkatanacoinSecret::SetString(const std::string& strSecret) {
+bool CpsbrcoincoinSecret::SetString(const std::string& strSecret) {
     return SetString(strSecret.c_str());
 }
 

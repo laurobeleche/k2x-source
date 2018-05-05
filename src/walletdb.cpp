@@ -368,7 +368,7 @@ ReadKeyValue(CWallet* pwallet, CDataStream& ssKey, CDataStream& ssValue,
         {
             string strAddress;
             ssKey >> strAddress;
-            ssValue >> pwallet->mapAddressBook[CkatanacoinAddress(strAddress).Get()];
+            ssValue >> pwallet->mapAddressBook[CpsbrcoincoinAddress(strAddress).Get()];
         }
         else if (strType == "tx")
         {
@@ -738,7 +738,7 @@ DBErrors CWalletDB::LoadWallet(CWallet* pwallet)
 void ThreadFlushWalletDB(const string& strFile)
 {
     // Make this thread recognisable as the wallet flushing thread
-    RenameThread("katana-wallet");
+    RenameThread("psbrcoin-wallet");
 
     static bool fOneThread;
     if (fOneThread)

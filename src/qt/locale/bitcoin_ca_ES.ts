@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Katana</source>
-        <translation>Sobre Katana</translation>
+        <source>About Psbrcoin</source>
+        <translation>Sobre Psbrcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Katana&lt;/b&gt; version</source>
-        <translation>versió &lt;b&gt;Katana&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Psbrcoin&lt;/b&gt; version</source>
+        <translation>versió &lt;b&gt;Psbrcoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Katana developers</source>
+Copyright © 2015-2017 The Psbrcoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Katana developers</translation>
+Copyright © 2015-2017 The Psbrcoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Katana addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces de Katana per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
+        <source>These are your Psbrcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Aquestes són les teves adreces de Psbrcoin per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Katana address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça Katana</translation>
+        <source>Sign a message to prove you own a Psbrcoin address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça Psbrcoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Katana address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça Katana especificada.</translation>
+        <source>Verify a message to ensure it was signed with a specified Psbrcoin address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça Psbrcoin especificada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Katana will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Katana tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
+        <source>Psbrcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Psbrcoin tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Katana</source>
-        <translation>Mostra informació sobre Katana</translation>
+        <source>Show information about Psbrcoin</source>
+        <translation>Mostra informació sobre Psbrcoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Katana address</source>
-        <translation>Enviar monedes a una adreça Katana</translation>
+        <source>Send coins to a Psbrcoin address</source>
+        <translation>Enviar monedes a una adreça Psbrcoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Katana</source>
-        <translation>Modificar les opcions de configuració per a Katana</translation>
+        <source>Modify configuration options for Psbrcoin</source>
+        <translation>Modificar les opcions de configuració per a Psbrcoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Katana</source>
-        <translation>Katana</translation>
+        <source>Psbrcoin</source>
+        <translation>Psbrcoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Katana</source>
-        <translation>&amp;Sobre Katana</translation>
+        <source>&amp;About Psbrcoin</source>
+        <translation>&amp;Sobre Psbrcoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Katana client</source>
-        <translation>Client Katana</translation>
+        <source>Psbrcoin client</source>
+        <translation>Client Psbrcoin</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Katana network</source>
-        <translation><numerusform>%n conexió activa a la xarxa Katana</numerusform><numerusform>%n conexions actives a la xarxa Katana</numerusform></translation>
+        <source>%n active connection(s) to Psbrcoin network</source>
+        <translation><numerusform>%n conexió activa a la xarxa Psbrcoin</numerusform><numerusform>%n conexions actives a la xarxa Psbrcoin</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -596,8 +596,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Katana address or malformed URI parameters.</source>
-        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça Katana no vàlida o paràmetres URI malformats.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Psbrcoin address or malformed URI parameters.</source>
+        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça Psbrcoin no vàlida o paràmetres URI malformats.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -719,8 +719,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Katana can no longer continue safely and will quit.</source>
-        <translation>S&apos;ha produït un error fatal. Katana ja no pot continuar de forma segura i es tancarà.</translation>
+        <source>A fatal error occurred. Psbrcoin can no longer continue safely and will quit.</source>
+        <translation>S&apos;ha produït un error fatal. Psbrcoin ja no pot continuar de forma segura i es tancarà.</translation>
     </message>
 </context>
 <context>
@@ -1053,8 +1053,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Katana address.</source>
-        <translation>La direcció introduïda &quot;%1&quot; no és una adreça Katana vàlida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Psbrcoin address.</source>
+        <translation>La direcció introduïda &quot;%1&quot; no és una adreça Psbrcoin vàlida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1072,8 +1072,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Katana-Qt</source>
-        <translation>Katana-Qt</translation>
+        <source>Psbrcoin-Qt</source>
+        <translation>Psbrcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1145,13 +1145,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Katana after logging in to the system.</source>
-        <translation>Inicia automàticament Katana després d&apos;entrar en el sistema.</translation>
+        <source>Automatically start Psbrcoin after logging in to the system.</source>
+        <translation>Inicia automàticament Psbrcoin després d&apos;entrar en el sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Katana on system login</source>
-        <translation>&amp;Iniciar Katana amb l&apos;inici de sessió</translation>
+        <source>&amp;Start Psbrcoin on system login</source>
+        <translation>&amp;Iniciar Psbrcoin amb l&apos;inici de sessió</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1160,8 +1160,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Katana client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir automàticament el port de client Katana en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
+        <source>Automatically open the Psbrcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir automàticament el port de client Psbrcoin en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1170,8 +1170,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Katana network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connecteu-vos a la xarxa Katana través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
+        <source>Connect to the Psbrcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connecteu-vos a la xarxa Psbrcoin través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1245,8 +1245,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Katana.</source>
-        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar Katana.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Psbrcoin.</source>
+        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar Psbrcoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1312,8 +1312,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Katana.</source>
-        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar Katana.</translation>
+        <source>This setting will take effect after restarting Psbrcoin.</source>
+        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar Psbrcoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1331,8 +1331,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Katana network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa Katana després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Psbrcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa Psbrcoin després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1573,8 +1573,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Katana-Qt help message to get a list with possible Katana command-line options.</source>
-        <translation>Mostra el missatge d&apos;ajuda de Katana-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres Katana.</translation>
+        <source>Show the Psbrcoin-Qt help message to get a list with possible Psbrcoin command-line options.</source>
+        <translation>Mostra el missatge d&apos;ajuda de Psbrcoin-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres Psbrcoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1593,13 +1593,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Katana - Debug window</source>
-        <translation>Katana - Finestra Depuració</translation>
+        <source>Psbrcoin - Debug window</source>
+        <translation>Psbrcoin - Finestra Depuració</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Katana Core</source>
-        <translation>Nucli Katana</translation>
+        <source>Psbrcoin Core</source>
+        <translation>Nucli Psbrcoin</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1608,8 +1608,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Katana debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obriu el fitxer de registre de depuració Katana des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
+        <source>Open the Psbrcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obriu el fitxer de registre de depuració Psbrcoin des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1618,8 +1618,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Katana RPC console.</source>
-        <translation>Benvingut a la consola RPC de Katana.</translation>
+        <source>Welcome to the Psbrcoin RPC console.</source>
+        <translation>Benvingut a la consola RPC de Psbrcoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1727,8 +1727,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 K2X</source>
-        <translation>123.456 K2X {0.00 ?}</translation>
+        <source>0.00 PSBR</source>
+        <translation>123.456 PSBR {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1797,8 +1797,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 K2X</source>
-        <translation>123.456 K2X</translation>
+        <source>123.456 PSBR</source>
+        <translation>123.456 PSBR</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1812,8 +1812,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Katana address (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Introdueix una adreça Katana (p.ex. Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>Enter a Psbrcoin address (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Introdueix una adreça Psbrcoin (p.ex. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1912,8 +1912,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Katana address</source>
-        <translation>ADVERTÈNCIA: Direcció Katana invàlida</translation>
+        <source>WARNING: Invalid Psbrcoin address</source>
+        <translation>ADVERTÈNCIA: Direcció Psbrcoin invàlida</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1945,7 +1945,7 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
+        <source>The address to send the payment to (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1986,8 +1986,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Katana address (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Introdueix una adreça Katana (p.ex. Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>Enter a Psbrcoin address (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Introdueix una adreça Psbrcoin (p.ex. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
 </context>
 <context>
@@ -2010,8 +2010,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>L&apos;adreça per a signar el missatge (per exemple Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>The address to sign the message with (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>L&apos;adreça per a signar el missatge (per exemple Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2047,8 +2047,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Katana address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça Katana</translation>
+        <source>Sign the message to prove you own this Psbrcoin address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça Psbrcoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2074,13 +2074,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>La direcció que va ser signada amb un missatge (per exemple Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>The address the message was signed with (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>La direcció que va ser signada amb un missatge (per exemple Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Katana address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça Katana especificada.</translation>
+        <source>Verify the message to ensure it was signed with the specified Psbrcoin address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça Psbrcoin especificada.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2090,8 +2090,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Katana address (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Introdueix una adreça Katana (p.ex. Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>Enter a Psbrcoin address (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Introdueix una adreça Psbrcoin (p.ex. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2100,8 +2100,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Katana signature</source>
-        <translation>Introduïu la signatura Katana</translation>
+        <source>Enter Psbrcoin signature</source>
+        <translation>Introduïu la signatura Psbrcoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2679,8 +2679,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Katana version</source>
-        <translation>versió Katana</translation>
+        <source>Psbrcoin version</source>
+        <translation>versió Psbrcoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2689,8 +2689,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or katanad</source>
-        <translation>Enviar comandes a -server o katanad</translation>
+        <source>Send command to -server or psbrcoind</source>
+        <translation>Enviar comandes a -server o psbrcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2709,13 +2709,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: katana.conf)</source>
-        <translation>Especifiqueu el fitxer de configuració (per defecte: katana.conf)</translation>
+        <source>Specify configuration file (default: psbrcoin.conf)</source>
+        <translation>Especifiqueu el fitxer de configuració (per defecte: psbrcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: katanad.pid)</source>
-        <translation>Especificar arxiu pid (per defecte: katanad.pid)</translation>
+        <source>Specify pid file (default: psbrcoind.pid)</source>
+        <translation>Especificar arxiu pid (per defecte: psbrcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2732,13 +2732,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=katanarpc
+rpcuser=psbrcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Psbrcoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2844,8 +2844,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Katana will not work properly.</source>
-        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni Katana no funcionarà correctament.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Psbrcoin will not work properly.</source>
+        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni Psbrcoin no funcionarà correctament.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3152,7 +3152,7 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Katana is shutting down.</source>
+        <source>Initialization sanity check failed. Psbrcoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3217,13 +3217,13 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Katana</source>
-        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de Katana</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Psbrcoin</source>
+        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de Psbrcoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Katana to complete</source>
-        <translation>El moneder necessita ser reescrita: reiniciar Katana per completar</translation>
+        <source>Wallet needed to be rewritten: restart Psbrcoin to complete</source>
+        <translation>El moneder necessita ser reescrita: reiniciar Psbrcoin per completar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3287,8 +3287,8 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Katana is probably already running.</source>
-        <translation>No es pot enllaçar a %s en aquest equip. Katana probablement ja estigui en funcionament.</translation>
+        <source>Unable to bind to %s on this computer. Psbrcoin is probably already running.</source>
+        <translation>No es pot enllaçar a %s en aquest equip. Psbrcoin probablement ja estigui en funcionament.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3327,7 +3327,7 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Katana is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Psbrcoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

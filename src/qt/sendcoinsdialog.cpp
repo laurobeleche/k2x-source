@@ -43,7 +43,7 @@ SendCoinsDialog::SendCoinsDialog(QWidget *parent) :
 
 #if QT_VERSION >= 0x040700
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a Katana address (e.g. Katana_Address_Here_QsAqFckyf9pRHN)"));
+    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a Psbrcoin address (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)"));
 #endif
 
     addEntry();
@@ -537,7 +537,7 @@ bool SendCoinsDialog::handleURI(const QString &uri)
     // URI has to be valid
     if (GUIUtil::parseBitcoinURI(uri, &rv))
     {
-        CkatanacoinAddress address(rv.address.toStdString());
+        CpsbrcoincoinAddress address(rv.address.toStdString());
         if (!address.IsValid())
             return false;
         pasteEntry(rv);
@@ -622,7 +622,7 @@ void SendCoinsDialog::processSendCoinsReturn(const WalletModel::SendCoinsReturn 
         msgParams.second = CClientUIInterface::MSG_ERROR;
         break;
     case WalletModel::IXTransactionCreationFailed:
-        msgParams.first = tr("InstantX doesn't support sending values that high yet. Transactions are currently limited to 1000 K2X.");
+        msgParams.first = tr("InstantX doesn't support sending values that high yet. Transactions are currently limited to 1000 PSBR.");
         msgParams.second = CClientUIInterface::MSG_ERROR;
         break;
     case WalletModel::TransactionCommitFailed:
@@ -847,7 +847,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
         CoinControlDialog::coinControl->destChange = CNoDestination();
         ui->labelCoinControlChangeLabel->setStyleSheet("QLabel{color:red;}");
 
-        CkatanacoinAddress addr = CkatanacoinAddress(text.toStdString());
+        CpsbrcoincoinAddress addr = CpsbrcoincoinAddress(text.toStdString());
 
         if (text.isEmpty()) // Nothing entered
         {
@@ -855,7 +855,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
         }
         else if (!addr.IsValid()) // Invalid address
         {
-            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Katana address"));
+            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Psbrcoin address"));
         }
         else // Valid address
         {

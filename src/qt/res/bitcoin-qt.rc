@@ -1,4 +1,4 @@
-IDI_ICON1 ICON DISCARDABLE "icons/katana.ico"
+IDI_ICON1 ICON DISCARDABLE "icons/psbrcoin.ico"
 
 #include <windows.h>             // needed for VERSIONINFO
 #include "../../clientversion.h" // holds the needed client version information
@@ -18,14 +18,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Katana"
-            VALUE "FileDescription",    "Katana-Qt (OSS GUI client for Katana)"
+            VALUE "CompanyName",        "Psbrcoin"
+            VALUE "FileDescription",    "Psbrcoin-Qt (OSS GUI client for Psbrcoin)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "katana-qt"
-            VALUE "LegalCopyright",     "2009-2014 The Bitcoin developers, 2012-2014 The NovaCoin & PPCoin developers, 2015-2018 The Katana developers"
+            VALUE "InternalName",       "psbrcoin-qt"
+            VALUE "LegalCopyright",     "2009-2014 The Bitcoin developers, 2012-2014 The NovaCoin & PPCoin developers, 2015-2018 The Psbrcoin developers"
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "katana-qt.exe"
-            VALUE "ProductName",        "Katana-Qt"
+            VALUE "OriginalFilename",   "psbrcoin-qt.exe"
+            VALUE "ProductName",        "Psbrcoin-Qt"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

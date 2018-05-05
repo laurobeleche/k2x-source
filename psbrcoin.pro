@@ -1,5 +1,5 @@
 TEMPLATE = app
-TARGET = katana-qt
+TARGET = psbrcoin-qt
 VERSION = 2.0.0.1
 INCLUDEPATH += src src/json src/qt src/qt/plugins/mrichtexteditor
 QT += network printsupport
@@ -591,8 +591,8 @@ macx:HEADERS += src/qt/macdockiconhandler.h src/qt/macnotificationhandler.h
 macx:OBJECTIVE_SOURCES += src/qt/macdockiconhandler.mm src/qt/macnotificationhandler.mm
 macx:LIBS += -framework Foundation -framework ApplicationServices -framework AppKit -framework CoreServices
 macx:DEFINES += MAC_OSX MSG_NOSIGNAL=0
-macx:ICON = src/qt/res/icons/katana.icns
-macx:TARGET = "Katana-Qt"
+macx:ICON = src/qt/res/icons/psbrcoin.icns
+macx:TARGET = "Psbrcoin-Qt"
 macx:QMAKE_CFLAGS_THREAD += -pthread
 macx:QMAKE_LFLAGS_THREAD += -pthread
 macx:QMAKE_CXXFLAGS_THREAD += -pthread

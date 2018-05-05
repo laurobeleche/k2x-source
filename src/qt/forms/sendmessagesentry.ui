@@ -38,7 +38,7 @@
      <item>
       <widget class="QValidatedLineEdit" name="sendTo">
        <property name="toolTip">
-        <string>The address to send the payment to  (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</string>
+        <string>The address to send the payment to  (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</string>
        </property>
        <property name="maxLength">
         <number>34</number>

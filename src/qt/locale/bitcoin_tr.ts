@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Katana</source>
-        <translation>Katana Hakkında</translation>
+        <source>About Psbrcoin</source>
+        <translation>Psbrcoin Hakkında</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Katana&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Katana&lt;/b&gt; versiyonu</translation>
+        <source>&lt;b&gt;Psbrcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Psbrcoin&lt;/b&gt; versiyonu</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Katana developers</source>
+Copyright © 2015-2017 The Psbrcoin developers</source>
         <translation>Telif Hakkı © 2009-2014 Bitcoin geliştiricileri
 Telif Hakkı © 2012-2014 NovaCoin geliştiricileri
-Telif Hakkı © 2015-2017 Katana geliştiricileri</translation>
+Telif Hakkı © 2015-2017 Psbrcoin geliştiricileri</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Katana addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Bunlar, ödeme almak için Katana adreslerinizdir. Her bir göndericiye farklı birini verebilir, böylece size kimin ödeme yaptığını takip edebilirsiniz.</translation>
+        <source>These are your Psbrcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Bunlar, ödeme almak için Psbrcoin adreslerinizdir. Her bir göndericiye farklı birini verebilir, böylece size kimin ödeme yaptığını takip edebilirsiniz.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -80,8 +80,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Katana address</source>
-        <translation>Bir Katana adresine sahip olduğunu ispatlamak için bir mesaj imzala</translation>
+        <source>Sign a message to prove you own a Psbrcoin address</source>
+        <translation>Bir Psbrcoin adresine sahip olduğunu ispatlamak için bir mesaj imzala</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Katana address</source>
-        <translation>Mesajın, belirli bir Katana adresiyle imzalandığından emin olmak için onu doğrula</translation>
+        <source>Verify a message to ensure it was signed with a specified Psbrcoin address</source>
+        <translation>Mesajın, belirli bir Psbrcoin adresiyle imzalandığından emin olmak için onu doğrula</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+82"/>
-        <source>Katana will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Katana, şifreleme işlemini tamamlamak için şimdi kapatılacak. Cüzdanınızı şifrelemenin; coinlerinizin, bilgisayarınızı etkileyen zararlı yazılımlar tarafından çalınmasını bütünüyle engelleyemeyebileceğini unutmayınız.</translation>
+        <source>Psbrcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Psbrcoin, şifreleme işlemini tamamlamak için şimdi kapatılacak. Cüzdanınızı şifrelemenin; coinlerinizin, bilgisayarınızı etkileyen zararlı yazılımlar tarafından çalınmasını bütünüyle engelleyemeyebileceğini unutmayınız.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -357,8 +357,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Katana</source>
-        <translation>Katana hakkındaki bilgiyi göster</translation>
+        <source>Show information about Psbrcoin</source>
+        <translation>Psbrcoin hakkındaki bilgiyi göster</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -397,13 +397,13 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Katana address</source>
-        <translation>Bir Katana adresine coin gönder</translation>
+        <source>Send coins to a Psbrcoin address</source>
+        <translation>Bir Psbrcoin adresine coin gönder</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Katana</source>
-        <translation>Katana yapılandırma seçeneklerini değiştir</translation>
+        <source>Modify configuration options for Psbrcoin</source>
+        <translation>Psbrcoin yapılandırma seçeneklerini değiştir</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -443,8 +443,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Katana</source>
-        <translation>Katana</translation>
+        <source>Psbrcoin</source>
+        <translation>Psbrcoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -453,8 +453,8 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Katana</source>
-        <translation>Katana &amp;Hakkında</translation>
+        <source>&amp;About Psbrcoin</source>
+        <translation>Psbrcoin &amp;Hakkında</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -505,13 +505,13 @@ Bu ürün, OpenSSL projesi tarafından OpenSSL araç takımıThis product includ
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Katana client</source>
-        <translation>Katana istemcisi</translation>
+        <source>Psbrcoin client</source>
+        <translation>Psbrcoin istemcisi</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Katana network</source>
-        <translation><numerusform>Katana ağına %n etkin bağlantı</numerusform><numerusform>Katana ağına %n etkin bağlantı</numerusform></translation>
+        <source>%n active connection(s) to Psbrcoin network</source>
+        <translation><numerusform>Psbrcoin ağına %n etkin bağlantı</numerusform><numerusform>Psbrcoin ağına %n etkin bağlantı</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -605,8 +605,8 @@ Adres: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Katana address or malformed URI parameters.</source>
-        <translation>URI ayrıştırılamadı! Bu, geçersiz bir Katana adresi veya hatalı URI parametreleri nedeniyle olabilir.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Psbrcoin address or malformed URI parameters.</source>
+        <translation>URI ayrıştırılamadı! Bu, geçersiz bir Psbrcoin adresi veya hatalı URI parametreleri nedeniyle olabilir.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -728,8 +728,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Katana can no longer continue safely and will quit.</source>
-        <translation>Önemli bir hata oluştu. Katana artık güvenli bir şekilde devam edemez ve şimdi kapatılacak.</translation>
+        <source>A fatal error occurred. Psbrcoin can no longer continue safely and will quit.</source>
+        <translation>Önemli bir hata oluştu. Psbrcoin artık güvenli bir şekilde devam edemez ve şimdi kapatılacak.</translation>
     </message>
 </context>
 <context>
@@ -1062,8 +1062,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Katana address.</source>
-        <translation>Girilen %1 adresi, geçerli bir Katana adresi değildir.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Psbrcoin address.</source>
+        <translation>Girilen %1 adresi, geçerli bir Psbrcoin adresi değildir.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1081,8 +1081,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Katana-Qt</source>
-        <translation>Katana-Qt</translation>
+        <source>Psbrcoin-Qt</source>
+        <translation>Psbrcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1154,13 +1154,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Katana after logging in to the system.</source>
-        <translation>Sisteme giriş yaptıktan sonra Katana&apos;i otomatik olarak başlat</translation>
+        <source>Automatically start Psbrcoin after logging in to the system.</source>
+        <translation>Sisteme giriş yaptıktan sonra Psbrcoin&apos;i otomatik olarak başlat</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Katana on system login</source>
-        <translation>Sisteme girişte Katana&apos;i &amp;başlat</translation>
+        <source>&amp;Start Psbrcoin on system login</source>
+        <translation>Sisteme girişte Psbrcoin&apos;i &amp;başlat</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1169,8 +1169,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Katana client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönelticide Katana istemci portunu otomatik olarak aç. Bu, sadece yönelticiniz UPnP&apos;i desteklediğinde ve etkin olduğunda çalışır.</translation>
+        <source>Automatically open the Psbrcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönelticide Psbrcoin istemci portunu otomatik olarak aç. Bu, sadece yönelticiniz UPnP&apos;i desteklediğinde ve etkin olduğunda çalışır.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1179,8 +1179,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Katana network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Katana ağına bir SOCKS vekil sunucusu yoluyla bağlan (örn. Tor yoluyla bağlanıldığında)</translation>
+        <source>Connect to the Psbrcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Psbrcoin ağına bir SOCKS vekil sunucusu yoluyla bağlan (örn. Tor yoluyla bağlanıldığında)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1254,8 +1254,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Katana.</source>
-        <translation>Kullanıcı arabirimi dili buradan ayarlanabilir. Ayar, Katana yeniden başlatıldığında etkin olacaktır.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Psbrcoin.</source>
+        <translation>Kullanıcı arabirimi dili buradan ayarlanabilir. Ayar, Psbrcoin yeniden başlatıldığında etkin olacaktır.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1321,8 +1321,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Katana.</source>
-        <translation>Bu ayar, Katana&apos;i yeniden başlattıktan sonra etkin olacaktır.</translation>
+        <source>This setting will take effect after restarting Psbrcoin.</source>
+        <translation>Bu ayar, Psbrcoin&apos;i yeniden başlattıktan sonra etkin olacaktır.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1340,8 +1340,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Katana network after a connection is established, but this process has not completed yet.</source>
-        <translation>Görüntülenen bilginin tarihi geçmiş olabilir. Cüzdanınız, bağlantı kurulduktan sonra otomatik olarak Katana ağı ile senkronize olur ancak bu süreç, henüz tamamlanmamıştır.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Psbrcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Görüntülenen bilginin tarihi geçmiş olabilir. Cüzdanınız, bağlantı kurulduktan sonra otomatik olarak Psbrcoin ağı ile senkronize olur ancak bu süreç, henüz tamamlanmamıştır.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1582,8 +1582,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Katana-Qt help message to get a list with possible Katana command-line options.</source>
-        <translation>Muhtemel Katana komut satırı seçeneklerinin bir listesini getirmek için Katana-Qt yardım mesajını göster</translation>
+        <source>Show the Psbrcoin-Qt help message to get a list with possible Psbrcoin command-line options.</source>
+        <translation>Muhtemel Psbrcoin komut satırı seçeneklerinin bir listesini getirmek için Psbrcoin-Qt yardım mesajını göster</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1602,13 +1602,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>Katana - Debug window</source>
-        <translation>Katana - Hata ayıklama penceresi</translation>
+        <source>Psbrcoin - Debug window</source>
+        <translation>Psbrcoin - Hata ayıklama penceresi</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Katana Core</source>
-        <translation>Katana Core</translation>
+        <source>Psbrcoin Core</source>
+        <translation>Psbrcoin Core</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1617,8 +1617,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Katana debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Katana hata ayıklama günlük kütüğü dosyasını, mevcut veri klasöründen aç. Bu işlem, büyük günlük kütüğü dosyaları için birkaç saniye sürebilir.</translation>
+        <source>Open the Psbrcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Psbrcoin hata ayıklama günlük kütüğü dosyasını, mevcut veri klasöründen aç. Bu işlem, büyük günlük kütüğü dosyaları için birkaç saniye sürebilir.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1627,8 +1627,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Katana RPC console.</source>
-        <translation>Katana RPC konsoluna hoş geldiniz.</translation>
+        <source>Welcome to the Psbrcoin RPC console.</source>
+        <translation>Psbrcoin RPC konsoluna hoş geldiniz.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1736,8 +1736,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 K2X</source>
-        <translation>123.456 K2X {0.00 ?}</translation>
+        <source>0.00 PSBR</source>
+        <translation>123.456 PSBR {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1806,8 +1806,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 K2X</source>
-        <translation>123.456 K2X</translation>
+        <source>123.456 PSBR</source>
+        <translation>123.456 PSBR</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1821,8 +1821,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Katana address (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Bir Katana adresi gir (örn: Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>Enter a Psbrcoin address (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Bir Psbrcoin adresi gir (örn: Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1921,8 +1921,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Katana address</source>
-        <translation>UYARI: Geçersiz Katana adresi</translation>
+        <source>WARNING: Invalid Psbrcoin address</source>
+        <translation>UYARI: Geçersiz Psbrcoin adresi</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1954,7 +1954,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
+        <source>The address to send the payment to (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1995,8 +1995,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Katana address (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Bir Katana adresi girin (örn: Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>Enter a Psbrcoin address (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Bir Psbrcoin adresi girin (örn: Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
 </context>
 <context>
@@ -2019,8 +2019,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Mesajın imzalanacağı adres (örn: Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>The address to sign the message with (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Mesajın imzalanacağı adres (örn: Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2056,8 +2056,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Katana address</source>
-        <translation>Bu Katana adresine sahip olduğunuzu ispatlamak için mesajı imzala</translation>
+        <source>Sign the message to prove you own this Psbrcoin address</source>
+        <translation>Bu Psbrcoin adresine sahip olduğunuzu ispatlamak için mesajı imzala</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2083,13 +2083,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Mesajın imzalandığı adres (örn: Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>The address the message was signed with (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Mesajın imzalandığı adres (örn: Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Katana address</source>
-        <translation>Mesajın, belirtilen Katana adresiyle imzalandığından emin olmak için onu doğrula</translation>
+        <source>Verify the message to ensure it was signed with the specified Psbrcoin address</source>
+        <translation>Mesajın, belirtilen Psbrcoin adresiyle imzalandığından emin olmak için onu doğrula</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2099,8 +2099,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Katana address (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Bir Katana adresi girin (örn: Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>Enter a Psbrcoin address (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Bir Psbrcoin adresi girin (örn: Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2109,8 +2109,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Katana signature</source>
-        <translation>Katana imzası gir</translation>
+        <source>Enter Psbrcoin signature</source>
+        <translation>Psbrcoin imzası gir</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2688,8 +2688,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Katana version</source>
-        <translation>Katana versiyonu</translation>
+        <source>Psbrcoin version</source>
+        <translation>Psbrcoin versiyonu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2698,8 +2698,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or katanad</source>
-        <translation>-sunucu veya katanad&apos;ye komut gönder</translation>
+        <source>Send command to -server or psbrcoind</source>
+        <translation>-sunucu veya psbrcoind&apos;ye komut gönder</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2718,13 +2718,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: katana.conf)</source>
-        <translation>Konfigürasyon dosyasını belirt (varsayılan: katana.conf)</translation>
+        <source>Specify configuration file (default: psbrcoin.conf)</source>
+        <translation>Konfigürasyon dosyasını belirt (varsayılan: psbrcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: katanad.pid)</source>
-        <translation>pid dosyasını belirt (varsayılan: katana.pid)</translation>
+        <source>Specify pid file (default: psbrcoind.pid)</source>
+        <translation>pid dosyasını belirt (varsayılan: psbrcoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2741,13 +2741,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=katanarpc
+rpcuser=psbrcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Psbrcoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2853,8 +2853,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Katana will not work properly.</source>
-        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olduğunu kontrol ediniz! Saatiniz yanlış ise, Katana düzgün çalışmayacaktır.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Psbrcoin will not work properly.</source>
+        <translation>Uyarı: Lütfen bilgisayarınızın tarih ve saatinin doğru olduğunu kontrol ediniz! Saatiniz yanlış ise, Psbrcoin düzgün çalışmayacaktır.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3160,8 +3160,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Katana is shutting down.</source>
-        <translation>Başlangıç uygunluk kontrolü başarısız oldu. Katana kapatılıyor.</translation>
+        <source>Initialization sanity check failed. Psbrcoin is shutting down.</source>
+        <translation>Başlangıç uygunluk kontrolü başarısız oldu. Psbrcoin kapatılıyor.</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -3225,13 +3225,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Katana</source>
-        <translation>wallet.dat yüklenirken hata: Cüzdan, daha yeni bir Katana versiyonuna ihtiyaç duyuyor.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Psbrcoin</source>
+        <translation>wallet.dat yüklenirken hata: Cüzdan, daha yeni bir Psbrcoin versiyonuna ihtiyaç duyuyor.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Katana to complete</source>
-        <translation>Cüzdanın yeniden yazılması gerekmektedir: Tamamlamak için Katana&apos;i yeniden başlatın</translation>
+        <source>Wallet needed to be rewritten: restart Psbrcoin to complete</source>
+        <translation>Cüzdanın yeniden yazılması gerekmektedir: Tamamlamak için Psbrcoin&apos;i yeniden başlatın</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3295,8 +3295,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Katana is probably already running.</source>
-        <translation>Bu bilgisayarda %s bağlanamadı. Katana muhtemelen halen çalışmaktadır.</translation>
+        <source>Unable to bind to %s on this computer. Psbrcoin is probably already running.</source>
+        <translation>Bu bilgisayarda %s bağlanamadı. Psbrcoin muhtemelen halen çalışmaktadır.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3335,7 +3335,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Katana is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Psbrcoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

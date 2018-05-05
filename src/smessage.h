@@ -166,7 +166,7 @@ public:
 
 
 // -- get at the data
-class CkatanacoinAddress_B : public CkatanacoinAddress
+class CpsbrcoincoinAddress_B : public CpsbrcoincoinAddress
 {
 public:
     uint8_t getVersion()

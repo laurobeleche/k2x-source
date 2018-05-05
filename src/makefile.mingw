@@ -10,15 +10,15 @@ BOOST_SUFFIX?=-mgw49-mt-s-1_57
 
 INCLUDEPATHS= \
  -I"$(CURDIR)" \
- -I"d:/project/katana/include/boost-1_57" \
- -I"d:/project/katana/include/miniupnpc" \
- -I"d:/project/katana/include" \
- -I"d:/project/katana"
+ -I"d:/project/psbrcoin/include/boost-1_57" \
+ -I"d:/project/psbrcoin/include/miniupnpc" \
+ -I"d:/project/psbrcoin/include" \
+ -I"d:/project/psbrcoin"
 
 LIBPATHS= \
  -L"$(CURDIR)/leveldb" \
- -L"d:/project/katana/lib" \
- -L"d:/project/katana"
+ -L"d:/project/psbrcoin/lib" \
+ -L"d:/project/psbrcoin"
 
 LIBS= \
  -l leveldb \
@@ -126,7 +126,7 @@ ifeq (${USE_WALLET}, 1)
         obj/walletdb.o
 endif
 
-all: katanad.exe
+all: psbrcoind.exe
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a -l shlwapi
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
@@ -142,12 +142,12 @@ obj/%.o: %.cpp $(HEADERS)
 obj/%.o: %.c $(HEADERS)
 	$(CXX) -c $(CFLAGS) -fpermissive -o $@ $<
 
-katanad.exe: $(OBJS:obj/%=obj/%)
+psbrcoind.exe: $(OBJS:obj/%=obj/%)
 	g++ $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 clean:
 	-rm -f obj/*.o
-	-rm -f katanad.exe
+	-rm -f psbrcoind.exe
 	-rm -f obj/build.h
 	cd leveldb && TARGET_OS=NATIVE_WINDOWS $(MAKE) clean && cd ..
 

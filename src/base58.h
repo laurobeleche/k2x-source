@@ -92,23 +92,23 @@ public:
     bool operator> (const CBase58Data& b58) const { return CompareTo(b58) >  0; }
 };
 
-/** base58-encoded Katana addresses.
+/** base58-encoded Psbrcoin addresses.
  * Public-key-hash-addresses have version 0 (or 111 testnet).
  * The data vector contains RIPEMD160(SHA256(pubkey)), where pubkey is the serialized public key.
  * Script-hash-addresses have version 5 (or 196 testnet).
  * The data vector contains RIPEMD160(SHA256(cscript)), where cscript is the serialized redemption script.
  */
-class CkatanacoinAddress : public CBase58Data {
+class CpsbrcoincoinAddress : public CBase58Data {
 public:
     bool Set(const CKeyID &id);
     bool Set(const CScriptID &id);
     bool Set(const CTxDestination &dest);
     bool IsValid() const;
 
-    CkatanacoinAddress() {}
-    CkatanacoinAddress(const CTxDestination &dest) { Set(dest); }
-    CkatanacoinAddress(const std::string& strAddress) { SetString(strAddress); }
-    CkatanacoinAddress(const char* pszAddress) { SetString(pszAddress); }
+    CpsbrcoincoinAddress() {}
+    CpsbrcoincoinAddress(const CTxDestination &dest) { Set(dest); }
+    CpsbrcoincoinAddress(const std::string& strAddress) { SetString(strAddress); }
+    CpsbrcoincoinAddress(const char* pszAddress) { SetString(pszAddress); }
 
     CTxDestination Get() const;
     bool GetKeyID(CKeyID &keyID) const;
@@ -118,7 +118,7 @@ public:
 /**
  * A base58-encoded secret key
  */
-class CkatanacoinSecret : public CBase58Data
+class CpsbrcoincoinSecret : public CBase58Data
 {
 public:
     void SetKey(const CKey& vchSecret);
@@ -127,11 +127,11 @@ public:
     bool SetString(const char* pszSecret);
     bool SetString(const std::string& strSecret);
 
-    CkatanacoinSecret(const CKey& vchSecret) { SetKey(vchSecret); }
-    CkatanacoinSecret() {}
+    CpsbrcoincoinSecret(const CKey& vchSecret) { SetKey(vchSecret); }
+    CpsbrcoincoinSecret() {}
 };
 
-template<typename K, int Size, CChainParams::Base58Type Type> class CkatanacoinExtKeyBase : public CBase58Data
+template<typename K, int Size, CChainParams::Base58Type Type> class CpsbrcoincoinExtKeyBase : public CBase58Data
 {
 public:
     void SetKey(const K &key) {
@@ -146,15 +146,15 @@ public:
         return ret;
     }
 
-    CkatanacoinExtKeyBase(const K &key) {
+    CpsbrcoincoinExtKeyBase(const K &key) {
         SetKey(key);
     }
 
-    CkatanacoinExtKeyBase() {}
+    CpsbrcoincoinExtKeyBase() {}
 };
 
-typedef CkatanacoinExtKeyBase<CExtKey, 74, CChainParams::EXT_SECRET_KEY> CkatanacoinExtKey;
-typedef CkatanacoinExtKeyBase<CExtPubKey, 74, CChainParams::EXT_PUBLIC_KEY> CkatanacoinExtPubKey;
+typedef CpsbrcoincoinExtKeyBase<CExtKey, 74, CChainParams::EXT_SECRET_KEY> CpsbrcoincoinExtKey;
+typedef CpsbrcoincoinExtKeyBase<CExtPubKey, 74, CChainParams::EXT_PUBLIC_KEY> CpsbrcoincoinExtPubKey;
 
 /** base58-encoded Bitcoin addresses.
  * Public-key-hash-addresses have version 0 (or 111 testnet).

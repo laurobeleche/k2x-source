@@ -1,13 +1,13 @@
 <RCC>
     <qresource prefix="/icons">
-        <file alias="bitcoin">res/icons/katana-80.png</file>
+        <file alias="bitcoin">res/icons/psbrcoin-80.png</file>
         <file alias="address-book">res/icons/address-book.png</file>
         <file alias="quit">res/icons/quit.png</file>
         <file alias="send">res/icons/send.png</file>
         <file alias="sendoverlay">res/icons/send-overlay.png</file>
         <file alias="invest">res/icons/invest.png</file>
         <file alias="investoverlay">res/icons/invest-overlay.png</file>
-        <file alias="toolbar">res/icons/katana-16.png</file>
+        <file alias="toolbar">res/icons/psbrcoin-16.png</file>
         <file alias="connect_0">res/icons/connect0_16.png</file>
         <file alias="connect_1">res/icons/connect1_16.png</file>
         <file alias="connect_2">res/icons/connect2_16.png</file>
@@ -30,8 +30,8 @@
         <file alias="editpaste">res/icons/editpaste.png</file>
         <file alias="editcopy">res/icons/editcopy.png</file>
         <file alias="add">res/icons/add.png</file>
-        <file alias="bitcoin_testnet">res/icons/katana-80.png</file>
-        <file alias="toolbar_testnet">res/icons/katana-16.png</file>
+        <file alias="bitcoin_testnet">res/icons/psbrcoin-80.png</file>
+        <file alias="toolbar_testnet">res/icons/psbrcoin-16.png</file>
         <file alias="edit">res/icons/edit.png</file>
         <file alias="editoverlay">res/icons/edit-overlay.png</file>
         <file alias="history">res/icons/history.png</file>

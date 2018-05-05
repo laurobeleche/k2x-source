@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Katana</source>
-        <translation>O katanau</translation>
+        <source>About Psbrcoin</source>
+        <translation>O psbrcoinu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Katana&lt;/b&gt; version</source>
-        <translation>Verze &lt;b&gt;katanau&lt;/b&gt; </translation>
+        <source>&lt;b&gt;Psbrcoin&lt;/b&gt; version</source>
+        <translation>Verze &lt;b&gt;psbrcoinu&lt;/b&gt; </translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Katana developers</source>
+Copyright © 2015-2017 The Psbrcoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Katana developers</translation>
+Copyright © 2015-2017 The Psbrcoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Katana addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Tato jsou tvé Katana adresy pro příjem plateb. Každému odesílateli můžeš dát jinou adresu, aby jsi mohl sledovat, kdo ti platí.</translation>
+        <source>These are your Psbrcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Tato jsou tvé Psbrcoin adresy pro příjem plateb. Každému odesílateli můžeš dát jinou adresu, aby jsi mohl sledovat, kdo ti platí.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Katana address</source>
-        <translation>Podepiš zprávu, aby jsi dokázal, že vlastníš tuto Katana adresu.</translation>
+        <source>Sign a message to prove you own a Psbrcoin address</source>
+        <translation>Podepiš zprávu, aby jsi dokázal, že vlastníš tuto Psbrcoin adresu.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Katana address</source>
-        <translation>Ověř zprávu, aby jsi zajistil, že byla podepsaná určitou Katana adresou.</translation>
+        <source>Verify a message to ensure it was signed with a specified Psbrcoin address</source>
+        <translation>Ověř zprávu, aby jsi zajistil, že byla podepsaná určitou Psbrcoin adresou.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Katana will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Pro dokončení procesu šifrování se Katana nyní zavře, Pamatuj, že zašifrování tvé peněženky nemůže plně ochránit tvé mince před krádeží, pokud máš počítač infikován malwerem.</translation>
+        <source>Psbrcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Pro dokončení procesu šifrování se Psbrcoin nyní zavře, Pamatuj, že zašifrování tvé peněženky nemůže plně ochránit tvé mince před krádeží, pokud máš počítač infikován malwerem.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Katana</source>
-        <translation>Zobraz informace a katanau</translation>
+        <source>Show information about Psbrcoin</source>
+        <translation>Zobraz informace a psbrcoinu</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Katana address</source>
-        <translation>Odešli mince na Katana adresu</translation>
+        <source>Send coins to a Psbrcoin address</source>
+        <translation>Odešli mince na Psbrcoin adresu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Katana</source>
-        <translation>Uprav možnosti konfigurace pro Katana</translation>
+        <source>Modify configuration options for Psbrcoin</source>
+        <translation>Uprav možnosti konfigurace pro Psbrcoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Katana</source>
-        <translation>Katana</translation>
+        <source>Psbrcoin</source>
+        <translation>Psbrcoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Katana</source>
-        <translation>&amp;O katanau</translation>
+        <source>&amp;About Psbrcoin</source>
+        <translation>&amp;O psbrcoinu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Katana client</source>
-        <translation>Katana klient</translation>
+        <source>Psbrcoin client</source>
+        <translation>Psbrcoin klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Katana network</source>
-        <translation><numerusform>%n aktivní spojení do Katana sítě</numerusform><numerusform>%n aktivních spojení do Katana sítě</numerusform><numerusform>%n aktivních spojení do Katana sítě</numerusform></translation>
+        <source>%n active connection(s) to Psbrcoin network</source>
+        <translation><numerusform>%n aktivní spojení do Psbrcoin sítě</numerusform><numerusform>%n aktivních spojení do Psbrcoin sítě</numerusform><numerusform>%n aktivních spojení do Psbrcoin sítě</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,8 +600,8 @@ Adresa: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Katana address or malformed URI parameters.</source>
-        <translation>URI nejde rozparsovat! To může být způsobeno neplatnou Katana adresou nebo chybnými URI parametry.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Psbrcoin address or malformed URI parameters.</source>
+        <translation>URI nejde rozparsovat! To může být způsobeno neplatnou Psbrcoin adresou nebo chybnými URI parametry.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Katana can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažné chybě. Katana již nemůže dále bezpečně pokračovat a bude ukončen.</translation>
+        <source>A fatal error occurred. Psbrcoin can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažné chybě. Psbrcoin již nemůže dále bezpečně pokračovat a bude ukončen.</translation>
     </message>
 </context>
 <context>
@@ -1057,8 +1057,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Katana address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; není platná Katana adresa.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Psbrcoin address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; není platná Psbrcoin adresa.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1076,8 +1076,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Katana-Qt</source>
-        <translation>Katana-Qt</translation>
+        <source>Psbrcoin-Qt</source>
+        <translation>Psbrcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1149,13 +1149,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Katana after logging in to the system.</source>
-        <translation>Automaticky spustit Katana po přihlášení do systému.</translation>
+        <source>Automatically start Psbrcoin after logging in to the system.</source>
+        <translation>Automaticky spustit Psbrcoin po přihlášení do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Katana on system login</source>
-        <translation>&amp;Spustit Katana při přihlášení do systému</translation>
+        <source>&amp;Start Psbrcoin on system login</source>
+        <translation>&amp;Spustit Psbrcoin při přihlášení do systému</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1164,8 +1164,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Katana client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otevřít port Katana klienta na routeru. Funguje to jen tehdy, když router podporuje UPnP a je povoleno.</translation>
+        <source>Automatically open the Psbrcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otevřít port Psbrcoin klienta na routeru. Funguje to jen tehdy, když router podporuje UPnP a je povoleno.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1174,8 +1174,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Katana network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Připoj se do sítě Katana přes SOCKS proxy (např. při připojení přes Tor)</translation>
+        <source>Connect to the Psbrcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Připoj se do sítě Psbrcoin přes SOCKS proxy (např. při připojení přes Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1249,8 +1249,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Katana.</source>
-        <translation>Zde můžeš nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartu katanau.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Psbrcoin.</source>
+        <translation>Zde můžeš nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartu psbrcoinu.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1316,8 +1316,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Katana.</source>
-        <translation>Nastavení se projeví až po restartu katanau.</translation>
+        <source>This setting will take effect after restarting Psbrcoin.</source>
+        <translation>Nastavení se projeví až po restartu psbrcoinu.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1335,8 +1335,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Katana network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informace můžou být zastaralé. Tvá peněženka se automaticky synchronizuje s Katana sítí po navázaní spojení, ale tento proces ještě není dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Psbrcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informace můžou být zastaralé. Tvá peněženka se automaticky synchronizuje s Psbrcoin sítí po navázaní spojení, ale tento proces ještě není dokončený.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1577,8 +1577,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Katana-Qt help message to get a list with possible Katana command-line options.</source>
-        <translation>Zobrazit Katana-Qt nápovědu pro zobrazení seznam dostupným možností příkazového řádku.</translation>
+        <source>Show the Psbrcoin-Qt help message to get a list with possible Psbrcoin command-line options.</source>
+        <translation>Zobrazit Psbrcoin-Qt nápovědu pro zobrazení seznam dostupným možností příkazového řádku.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1597,13 +1597,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Katana - Debug window</source>
-        <translation>Katana - Ladící okno</translation>
+        <source>Psbrcoin - Debug window</source>
+        <translation>Psbrcoin - Ladící okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Katana Core</source>
-        <translation>Jádro katanau</translation>
+        <source>Psbrcoin Core</source>
+        <translation>Jádro psbrcoinu</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1612,8 +1612,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Katana debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otevři logovací soubor katanau z aktuálního datového adresáře. Pro velké logy to může trvat několik sekund.</translation>
+        <source>Open the Psbrcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otevři logovací soubor psbrcoinu z aktuálního datového adresáře. Pro velké logy to může trvat několik sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1622,8 +1622,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Katana RPC console.</source>
-        <translation>Vítej v Katana RPC konzoli.</translation>
+        <source>Welcome to the Psbrcoin RPC console.</source>
+        <translation>Vítej v Psbrcoin RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1731,8 +1731,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 K2X</source>
-        <translation>123.456 K2X {0.00 ?}</translation>
+        <source>0.00 PSBR</source>
+        <translation>123.456 PSBR {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1801,8 +1801,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 K2X</source>
-        <translation>123.456 K2X</translation>
+        <source>123.456 PSBR</source>
+        <translation>123.456 PSBR</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1816,8 +1816,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Katana address (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Napiš Katana adresu (např. Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>Enter a Psbrcoin address (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Napiš Psbrcoin adresu (např. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1916,8 +1916,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Katana address</source>
-        <translation>UPOZORNĚNÍ: Neplatná Katana adresa</translation>
+        <source>WARNING: Invalid Psbrcoin address</source>
+        <translation>UPOZORNĚNÍ: Neplatná Psbrcoin adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1949,7 +1949,7 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
+        <source>The address to send the payment to (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1990,8 +1990,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Katana address (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Zadej Katana adresu (např. Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>Enter a Psbrcoin address (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Zadej Psbrcoin adresu (např. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
 </context>
 <context>
@@ -2014,8 +2014,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Adresa pro podepsání zprávy (např. Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>The address to sign the message with (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Adresa pro podepsání zprávy (např. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2051,8 +2051,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Katana address</source>
-        <translation>Podepiš zprávu jako důkaz, že vlastníš tuto Katana adresu</translation>
+        <source>Sign the message to prove you own this Psbrcoin address</source>
+        <translation>Podepiš zprávu jako důkaz, že vlastníš tuto Psbrcoin adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2078,13 +2078,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Adresa kterou byla zpráva podepsána (např. Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>The address the message was signed with (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Adresa kterou byla zpráva podepsána (např. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Katana address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Katana adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Psbrcoin address</source>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Psbrcoin adresou</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2094,8 +2094,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Katana address (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Zadej Katana adresu (např. Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>Enter a Psbrcoin address (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Zadej Psbrcoin adresu (např. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2104,8 +2104,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Katana signature</source>
-        <translation>Zadej Katana podpis</translation>
+        <source>Enter Psbrcoin signature</source>
+        <translation>Zadej Psbrcoin podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2683,8 +2683,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Katana version</source>
-        <translation>Verze katanau</translation>
+        <source>Psbrcoin version</source>
+        <translation>Verze psbrcoinu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2693,8 +2693,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or katanad</source>
-        <translation>Pošli příkaz na -server nebo katanad</translation>
+        <source>Send command to -server or psbrcoind</source>
+        <translation>Pošli příkaz na -server nebo psbrcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2713,13 +2713,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: katana.conf)</source>
-        <translation>Urči konfigurační soubor (výchozí: katana.conf)</translation>
+        <source>Specify configuration file (default: psbrcoin.conf)</source>
+        <translation>Urči konfigurační soubor (výchozí: psbrcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: katanad.pid)</source>
-        <translation>Urči pid soubor (výchozí: katanad.pid)</translation>
+        <source>Specify pid file (default: psbrcoind.pid)</source>
+        <translation>Urči pid soubor (výchozí: psbrcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2736,13 +2736,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=katanarpc
+rpcuser=psbrcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Psbrcoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2848,8 +2848,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Katana will not work properly.</source>
-        <translation>Upozornění: Zkontroluj prosím datum a čas tvého počítače! Pokud jdou tvé hodiny špatně, tak Katana nebude pracovat správně. </translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Psbrcoin will not work properly.</source>
+        <translation>Upozornění: Zkontroluj prosím datum a čas tvého počítače! Pokud jdou tvé hodiny špatně, tak Psbrcoin nebude pracovat správně. </translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3155,7 +3155,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Katana is shutting down.</source>
+        <source>Initialization sanity check failed. Psbrcoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3220,13 +3220,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Katana</source>
-        <translation>Chyba načítání wallet.dat: Peněženka vyžaduje novější verzi katanau</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Psbrcoin</source>
+        <translation>Chyba načítání wallet.dat: Peněženka vyžaduje novější verzi psbrcoinu</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Katana to complete</source>
-        <translation>Peněženka by potřebovala být přepsána: restartuj Katana pro dokončení</translation>
+        <source>Wallet needed to be rewritten: restart Psbrcoin to complete</source>
+        <translation>Peněženka by potřebovala být přepsána: restartuj Psbrcoin pro dokončení</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3290,8 +3290,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Katana is probably already running.</source>
-        <translation>Nemůžu se svázat s %s na tomto počítači. Katana nejspíše již běží.</translation>
+        <source>Unable to bind to %s on this computer. Psbrcoin is probably already running.</source>
+        <translation>Nemůžu se svázat s %s na tomto počítači. Psbrcoin nejspíše již běží.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3330,7 +3330,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Katana is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Psbrcoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Katana</source>
-        <translation>Tietoa katanaista</translation>
+        <source>About Psbrcoin</source>
+        <translation>Tietoa psbrcoinista</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Katana&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Katana&lt;/b&gt;-asiakasohjelman versio</translation>
+        <source>&lt;b&gt;Psbrcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Psbrcoin&lt;/b&gt;-asiakasohjelman versio</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Katana developers</source>
+Copyright © 2015-2017 The Psbrcoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Katana developers</translation>
+Copyright © 2015-2017 The Psbrcoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -66,8 +66,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Katana addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Nämä ovat Katana-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
+        <source>These are your Psbrcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Nämä ovat Psbrcoin-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -81,8 +81,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Katana address</source>
-        <translation>Allekirjoita viesti osoittaaksesi Katana-osoitteesi omistajuus</translation>
+        <source>Sign a message to prove you own a Psbrcoin address</source>
+        <translation>Allekirjoita viesti osoittaaksesi Psbrcoin-osoitteesi omistajuus</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -96,8 +96,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Katana address</source>
-        <translation>Vahvista viesti varmistaaksesi että kyseinen Katana-osoitteesi on allekirjoittanut sen</translation>
+        <source>Verify a message to ensure it was signed with a specified Psbrcoin address</source>
+        <translation>Vahvista viesti varmistaaksesi että kyseinen Psbrcoin-osoitteesi on allekirjoittanut sen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -264,8 +264,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+82"/>
-        <source>Katana will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Katana-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
+        <source>Psbrcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Psbrcoin-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -358,8 +358,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Katana</source>
-        <translation>Näytä tietoja katanaista</translation>
+        <source>Show information about Psbrcoin</source>
+        <translation>Näytä tietoja psbrcoinista</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -398,12 +398,12 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Katana address</source>
-        <translation>Lähetä varoja Katana-osoitteeseen</translation>
+        <source>Send coins to a Psbrcoin address</source>
+        <translation>Lähetä varoja Psbrcoin-osoitteeseen</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Katana</source>
+        <source>Modify configuration options for Psbrcoin</source>
         <translation>Mukauta asiakasohjelman asetuksia</translation>
     </message>
     <message>
@@ -444,8 +444,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Katana</source>
-        <translation>Katana</translation>
+        <source>Psbrcoin</source>
+        <translation>Psbrcoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -454,8 +454,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Katana</source>
-        <translation>&amp;Tietoa katanaista</translation>
+        <source>&amp;About Psbrcoin</source>
+        <translation>&amp;Tietoa psbrcoinista</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -506,13 +506,13 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Katana client</source>
-        <translation>Katana-asiakasohjelma</translation>
+        <source>Psbrcoin client</source>
+        <translation>Psbrcoin-asiakasohjelma</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Katana network</source>
-        <translation><numerusform>%n aktiivinen yhteys Katana-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Katana-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to Psbrcoin network</source>
+        <translation><numerusform>%n aktiivinen yhteys Psbrcoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä Psbrcoin-verkkoon</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -605,8 +605,8 @@ Osoite: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Katana address or malformed URI parameters.</source>
-        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä Katana-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Psbrcoin address or malformed URI parameters.</source>
+        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä Psbrcoin-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -728,8 +728,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Katana can no longer continue safely and will quit.</source>
-        <translation>Virhe kohdattu. Katana-asiakasohjelma ei voi enää jatkaa turvallisesti ja se suljetaan.</translation>
+        <source>A fatal error occurred. Psbrcoin can no longer continue safely and will quit.</source>
+        <translation>Virhe kohdattu. Psbrcoin-asiakasohjelma ei voi enää jatkaa turvallisesti ja se suljetaan.</translation>
     </message>
 </context>
 <context>
@@ -1062,8 +1062,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Katana address.</source>
-        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty Katana-osoite.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Psbrcoin address.</source>
+        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty Psbrcoin-osoite.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1081,8 +1081,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Katana-Qt</source>
-        <translation>Katana-Qt</translation>
+        <source>Psbrcoin-Qt</source>
+        <translation>Psbrcoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1154,13 +1154,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Katana after logging in to the system.</source>
-        <translation>Käynnistä Katana-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
+        <source>Automatically start Psbrcoin after logging in to the system.</source>
+        <translation>Käynnistä Psbrcoin-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Katana on system login</source>
-        <translation>%Käynnistä Katana-asiakasohjelma kirjautuessasi</translation>
+        <source>&amp;Start Psbrcoin on system login</source>
+        <translation>%Käynnistä Psbrcoin-asiakasohjelma kirjautuessasi</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1169,8 +1169,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Katana client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa Katana-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
+        <source>Automatically open the Psbrcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa Psbrcoin-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1179,8 +1179,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Katana network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Yhdistä Katana-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n kautta).</translation>
+        <source>Connect to the Psbrcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Yhdistä Psbrcoin-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n kautta).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1254,8 +1254,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Katana.</source>
-        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta Katana-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Psbrcoin.</source>
+        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta Psbrcoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1321,8 +1321,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Katana.</source>
-        <translation>Tämä asetus tulee voimaan vasta Katana-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>This setting will take effect after restarting Psbrcoin.</source>
+        <translation>Tämä asetus tulee voimaan vasta Psbrcoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1340,8 +1340,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Katana network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti Katana-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Psbrcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti Psbrcoin-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1582,8 +1582,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Katana-Qt help message to get a list with possible Katana command-line options.</source>
-        <translation>Näytä Katana-Qt:n avustusohje saadaksesi listan käytettävistä katanain komentokehotteen määritteistä.</translation>
+        <source>Show the Psbrcoin-Qt help message to get a list with possible Psbrcoin command-line options.</source>
+        <translation>Näytä Psbrcoin-Qt:n avustusohje saadaksesi listan käytettävistä psbrcoinin komentokehotteen määritteistä.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1602,13 +1602,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Katana - Debug window</source>
-        <translation>Katana - Debug-ikkuna</translation>
+        <source>Psbrcoin - Debug window</source>
+        <translation>Psbrcoin - Debug-ikkuna</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Katana Core</source>
-        <translation>katanain ydin</translation>
+        <source>Psbrcoin Core</source>
+        <translation>psbrcoinin ydin</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1617,8 +1617,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Katana debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa Katana-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
+        <source>Open the Psbrcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa Psbrcoin-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1627,8 +1627,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Katana RPC console.</source>
-        <translation>Tervetuloa katanain RPC-konsoliin.</translation>
+        <source>Welcome to the Psbrcoin RPC console.</source>
+        <translation>Tervetuloa psbrcoinin RPC-konsoliin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1688,7 +1688,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <location line="+5"/>
         <location line="+5"/>
         <source>Send Coins</source>
-        <translation>Lähetä katanaeja</translation>
+        <translation>Lähetä psbrcoineja</translation>
     </message>
     <message>
         <location line="+76"/>
@@ -1736,8 +1736,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 K2X</source>
-        <translation>123.456 K2X {0.00 ?}</translation>
+        <source>0.00 PSBR</source>
+        <translation>123.456 PSBR {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1806,8 +1806,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 K2X</source>
-        <translation>123.456 K2X</translation>
+        <source>123.456 PSBR</source>
+        <translation>123.456 PSBR</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1821,8 +1821,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Katana address (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Syötä Katana-osoite (esim. Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>Enter a Psbrcoin address (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Syötä Psbrcoin-osoite (esim. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1921,8 +1921,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Katana address</source>
-        <translation>VAROITUS: Epäkelpo Katana-osoite</translation>
+        <source>WARNING: Invalid Psbrcoin address</source>
+        <translation>VAROITUS: Epäkelpo Psbrcoin-osoite</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1954,7 +1954,7 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
+        <source>The address to send the payment to (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1995,8 +1995,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Katana address (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Syötä Katana-osoite (esim. Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>Enter a Psbrcoin address (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Syötä Psbrcoin-osoite (esim. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
 </context>
 <context>
@@ -2019,8 +2019,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Osoite, jolle viesti kirjataan (esim. Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>The address to sign the message with (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Osoite, jolle viesti kirjataan (esim. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2056,8 +2056,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Katana address</source>
-        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän Katana-osoitteen</translation>
+        <source>Sign the message to prove you own this Psbrcoin address</source>
+        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän Psbrcoin-osoitteen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2083,13 +2083,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Osoite, jolla viesti on allekirjoitettu (esim. Katana_Address_Here_QsAqFckyf9pRHN) </translation>
+        <source>The address the message was signed with (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Osoite, jolla viesti on allekirjoitettu (esim. Psbrcoin_Address_Here_QsAqFckyf9pRHN) </translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Katana address</source>
-        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä Katana-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified Psbrcoin address</source>
+        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä Psbrcoin-osoitteella</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2099,8 +2099,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Katana address (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Syötä Katana-osoite (esim. Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>Enter a Psbrcoin address (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Syötä Psbrcoin-osoite (esim. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2109,8 +2109,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Katana signature</source>
-        <translation>Syötä Katana-allekirjoitus</translation>
+        <source>Enter Psbrcoin signature</source>
+        <translation>Syötä Psbrcoin-allekirjoitus</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2688,8 +2688,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Katana version</source>
-        <translation>katanain versio</translation>
+        <source>Psbrcoin version</source>
+        <translation>psbrcoinin versio</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2698,8 +2698,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or katanad</source>
-        <translation>Syötä komento kohteeseen -server tai katanad</translation>
+        <source>Send command to -server or psbrcoind</source>
+        <translation>Syötä komento kohteeseen -server tai psbrcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2718,13 +2718,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: katana.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: katana.conf)</translation>
+        <source>Specify configuration file (default: psbrcoin.conf)</source>
+        <translation>Määritä asetustiedosto (oletus: psbrcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: katanad.pid)</source>
-        <translation>Määritä prosessitiedosto (oletus: katana.pid)</translation>
+        <source>Specify pid file (default: psbrcoind.pid)</source>
+        <translation>Määritä prosessitiedosto (oletus: psbrcoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2741,13 +2741,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=katanarpc
+rpcuser=psbrcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Psbrcoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2853,8 +2853,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Katana will not work properly.</source>
-        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, Katana ei toimi oikein.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Psbrcoin will not work properly.</source>
+        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, Psbrcoin ei toimi oikein.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3160,8 +3160,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Katana is shutting down.</source>
-        <translation>Käyttöönottotarkistus epäonnistui. Katana-asiakasohjelma suljetaan.</translation>
+        <source>Initialization sanity check failed. Psbrcoin is shutting down.</source>
+        <translation>Käyttöönottotarkistus epäonnistui. Psbrcoin-asiakasohjelma suljetaan.</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -3225,13 +3225,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Katana</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version Katana-asiakasohjelmasta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Psbrcoin</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version Psbrcoin-asiakasohjelmasta</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Katana to complete</source>
-        <translation>Lompakko on kirjoitettava uudelleen: käynnistä Katana-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
+        <source>Wallet needed to be rewritten: restart Psbrcoin to complete</source>
+        <translation>Lompakko on kirjoitettava uudelleen: käynnistä Psbrcoin-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3295,8 +3295,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Katana is probably already running.</source>
-        <translation>Ei voitu liittää %s tällä tietokoneella. Katana-asiakasohjelma on jo ehkä päällä.</translation>
+        <source>Unable to bind to %s on this computer. Psbrcoin is probably already running.</source>
+        <translation>Ei voitu liittää %s tällä tietokoneella. Psbrcoin-asiakasohjelma on jo ehkä päällä.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3335,7 +3335,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Katana is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Psbrcoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

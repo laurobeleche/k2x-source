@@ -66,13 +66,13 @@ void OptionsModel::Init()
     if (!settings.contains("nDarksendRounds"))
         settings.setValue("nDarksendRounds", 2);
     nDarksendRounds = settings.value("nDarksendRounds").toLongLong();
-    if (!settings.contains("nAnonymizekatanaAmount"))
-        settings.setValue("nAnonymizekatanaAmount", 1000);
-    nAnonymizekatanaAmount = settings.value("nAnonymizekatanaAmount").toLongLong();
+    if (!settings.contains("nAnonymizepsbrcoinAmount"))
+        settings.setValue("nAnonymizepsbrcoinAmount", 1000);
+    nAnonymizepsbrcoinAmount = settings.value("nAnonymizepsbrcoinAmount").toLongLong();
     if (settings.contains("nDarksendRounds"))
         SoftSetArg("-darksendrounds", settings.value("nDarksendRounds").toString().toStdString());
-    if (settings.contains("nAnonymizekatanaAmount"))
-        SoftSetArg("-anonymizetraveamount", settings.value("nAnonymizekatanaAmount").toString().toStdString());
+    if (settings.contains("nAnonymizepsbrcoinAmount"))
+        SoftSetArg("-anonymizetraveamount", settings.value("nAnonymizepsbrcoinAmount").toString().toStdString());
 
 
 
@@ -206,8 +206,8 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
             return fCoinControlFeatures;
         case DarksendRounds:
             return QVariant(nDarksendRounds);
-        case AnonymizekatanaAmount:
-            return QVariant(nAnonymizekatanaAmount);
+        case AnonymizepsbrcoinAmount:
+            return QVariant(nAnonymizepsbrcoinAmount);
         case UseBlackTheme:
             return QVariant(fUseBlackTheme);
         default:
@@ -318,10 +318,10 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
             settings.setValue("nDarksendRounds", nDarksendRounds);
             emit darksendRoundsChanged(nDarksendRounds);
             break;
-        case AnonymizekatanaAmount:
-            nAnonymizekatanaAmount = value.toInt();
-            settings.setValue("nAnonymizekatanaAmount", nAnonymizekatanaAmount);
-            emit AnonymizekatanaAmountChanged(nAnonymizekatanaAmount);
+        case AnonymizepsbrcoinAmount:
+            nAnonymizepsbrcoinAmount = value.toInt();
+            settings.setValue("nAnonymizepsbrcoinAmount", nAnonymizepsbrcoinAmount);
+            emit AnonymizepsbrcoinAmountChanged(nAnonymizepsbrcoinAmount);
             break;
         default:
             break;

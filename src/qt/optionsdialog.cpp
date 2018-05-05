@@ -143,7 +143,7 @@ void OptionsDialog::setMapper()
 
     /* Darksend Rounds */
     mapper->addMapping(ui->darksendRounds, OptionsModel::DarksendRounds);
-    mapper->addMapping(ui->anonymizekatana, OptionsModel::AnonymizekatanaAmount);
+    mapper->addMapping(ui->anonymizepsbrcoin, OptionsModel::AnonymizepsbrcoinAmount);
 }
 
 void OptionsDialog::enableApplyButton()
@@ -195,7 +195,7 @@ void OptionsDialog::showRestartWarning_Proxy()
 {
     if(!fRestartWarningDisplayed_Proxy)
     {
-        QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting Katana."), QMessageBox::Ok);
+        QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting Psbrcoin."), QMessageBox::Ok);
         fRestartWarningDisplayed_Proxy = true;
     }
 }
@@ -204,7 +204,7 @@ void OptionsDialog::showRestartWarning_Lang()
 {
     if(!fRestartWarningDisplayed_Lang)
     {
-        QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting Katana."), QMessageBox::Ok);
+        QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting Psbrcoin."), QMessageBox::Ok);
         fRestartWarningDisplayed_Lang = true;
     }
 }

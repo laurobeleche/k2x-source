@@ -52,12 +52,12 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to bitcoind / RPC client
-            std::string strUsage = _("Katana version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("Psbrcoin version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  katanad [options]                     " + "\n" +
-                  "  katanad [options] <command> [params]  " + _("Send command to -server or katanad") + "\n" +
-                  "  katanad [options] help                " + _("List commands") + "\n" +
-                  "  katanad [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  psbrcoind [options]                     " + "\n" +
+                  "  psbrcoind [options] <command> [params]  " + _("Send command to -server or psbrcoind") + "\n" +
+                  "  psbrcoind [options] help                " + _("List commands") + "\n" +
+                  "  psbrcoind [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -67,7 +67,7 @@ bool AppInit(int argc, char* argv[])
 
         // Command-line RPC
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "katana:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "psbrcoin:"))
                 fCommandLine = true;
 
         if (fCommandLine)

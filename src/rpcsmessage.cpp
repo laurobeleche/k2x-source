@@ -167,7 +167,7 @@ Value smsglocalkeys(const Array& params, bool fHelp)
                 && !it->fReceiveEnabled)
                 continue;
             
-            CkatanacoinAddress coinAddress(it->sAddress);
+            CpsbrcoincoinAddress coinAddress(it->sAddress);
             if (!coinAddress.IsValid())
                 continue;
             
@@ -306,7 +306,7 @@ Value smsglocalkeys(const Array& params, bool fHelp)
             if (!IsMine(*pwalletMain, entry.first))
                 continue;
             
-            CkatanacoinAddress coinAddress(entry.first);
+            CpsbrcoincoinAddress coinAddress(entry.first);
             if (!coinAddress.IsValid())
                 continue;
             
@@ -461,7 +461,7 @@ Value smsggetpubkey(const Array& params, bool fHelp)
             return result;
     };
     
-    CkatanacoinAddress coinAddress(address);
+    CpsbrcoincoinAddress coinAddress(address);
     
     
     CKeyID keyID;

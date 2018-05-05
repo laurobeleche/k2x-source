@@ -96,7 +96,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     nWeight(0)
 {
     resize(900, 520);
-    setWindowTitle(tr("Katana") + " - " + tr("Wallet"));
+    setWindowTitle(tr("Psbrcoin") + " - " + tr("Wallet"));
 #ifndef Q_OS_MAC
     qApp->setWindowIcon(QIcon(":icons/bitcoin"));
     setWindowIcon(QIcon(":icons/bitcoin"));
@@ -104,9 +104,9 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     //setUnifiedTitleAndToolBarOnMac(true);
     QApplication::setAttribute(Qt::AA_DontShowIconsInMenus);
 #endif
-    setObjectName("katana");
-    //setStyleSheet("#katana { background-color: qradialgradient(cx: -0.8, cy: 0, fx: -0.8, fy: 0, radius: 1.4, stop: 0 #dedede, stop: 1 #efefef);  }");
-    setStyleSheet("#katana { background-color: qradialgradient(cx: -0.8, cy: 0, fx: -0.8, fy: 0, radius: 1.4, stop: 0 #fcfcfc, stop: 1 #ffffff);  }");
+    setObjectName("psbrcoin");
+    //setStyleSheet("#psbrcoin { background-color: qradialgradient(cx: -0.8, cy: 0, fx: -0.8, fy: 0, radius: 1.4, stop: 0 #dedede, stop: 1 #efefef);  }");
+    setStyleSheet("#psbrcoin { background-color: qradialgradient(cx: -0.8, cy: 0, fx: -0.8, fy: 0, radius: 1.4, stop: 0 #fcfcfc, stop: 1 #ffffff);  }");
     // Accept D&D of URIs
     setAcceptDrops(true);
 
@@ -289,7 +289,7 @@ void BitcoinGUI::createActions()
     tabGroup->addAction(receiveCoinsAction);
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&SEND"), this);
-    sendCoinsAction->setToolTip(tr("Senhistory.pngd coins to a Katana address"));
+    sendCoinsAction->setToolTip(tr("Senhistory.pngd coins to a Psbrcoin address"));
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_3));
     tabGroup->addAction(sendCoinsAction);
@@ -317,13 +317,13 @@ void BitcoinGUI::createActions()
     tabGroup->addAction(messageAction);
 	
     investAction = new QAction(QIcon(":/icons/invest"), tr("&NINJA HOME"), this);
-    investAction->setToolTip(tr("Katana Website"));
+    investAction->setToolTip(tr("Psbrcoin Website"));
     investAction->setCheckable(true);
     investAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_6));
     tabGroup->addAction(investAction);
     
-    discordAction = new QAction(QIcon(":/icons/discord"), tr("&KATANA DISCORD"), this);
-    discordAction->setToolTip(tr("Katana Discord"));
+    discordAction = new QAction(QIcon(":/icons/discord"), tr("&PSBRCOIN DISCORD"), this);
+    discordAction->setToolTip(tr("Psbrcoin Discord"));
     discordAction->setCheckable(true);
     discordAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_9));
     tabGroup->addAction(discordAction);
@@ -370,22 +370,22 @@ void BitcoinGUI::createActions()
     quitAction->setToolTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-	pioAction = new QAction(QIcon(":/icons/web"), tr("&Katana Website"), this);
-	pioAction->setToolTip(tr("Visit the Official Katana website"));
+	pioAction = new QAction(QIcon(":/icons/web"), tr("&Psbrcoin Website"), this);
+	pioAction->setToolTip(tr("Visit the Official Psbrcoin website"));
 	bitcointalkAction = new QAction(QIcon(":/icons/bitcointalk"), tr("&Bitcointalk Discussion"), this);
-	bitcointalkAction->setToolTip(tr("Visit the Bitcointalk Katana discussion thread"));
-	chainAction = new QAction(QIcon(":/icons/slack"), tr("&Katana Slack"), this);
-	chainAction->setToolTip(tr("Join Katana Slack"));	
-	explorerAction = new QAction(QIcon(":/icons/explorer"), tr("&Katana Explorer"), this);
-	explorerAction->setToolTip(tr("Katana Explorer"));
-    aboutAction = new QAction(tr("&About Katana"), this);
-    aboutAction->setToolTip(tr("Show information about Katana"));
+	bitcointalkAction->setToolTip(tr("Visit the Bitcointalk Psbrcoin discussion thread"));
+	chainAction = new QAction(QIcon(":/icons/slack"), tr("&Psbrcoin Slack"), this);
+	chainAction->setToolTip(tr("Join Psbrcoin Slack"));	
+	explorerAction = new QAction(QIcon(":/icons/explorer"), tr("&Psbrcoin Explorer"), this);
+	explorerAction->setToolTip(tr("Psbrcoin Explorer"));
+    aboutAction = new QAction(tr("&About Psbrcoin"), this);
+    aboutAction->setToolTip(tr("Show information about Psbrcoin"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(tr("About &Qt"), this);
     aboutQtAction->setToolTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(tr("&Options..."), this);
-    optionsAction->setToolTip(tr("Modify configuration options for Katana"));
+    optionsAction->setToolTip(tr("Modify configuration options for Psbrcoin"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
     toggleHideAction = new QAction(QIcon(":/icons/bitcoin"), tr("&Show / Hide"), this);
     encryptWalletAction = new QAction(tr("&Encrypt Wallet..."), this);
@@ -569,7 +569,7 @@ void BitcoinGUI::setClientModel(ClientModel *clientModel)
 #endif
             if(trayIcon)
             {
-                trayIcon->setToolTip(tr("Katana client") + QString(" ") + tr("[testnet]"));
+                trayIcon->setToolTip(tr("Psbrcoin client") + QString(" ") + tr("[testnet]"));
                 trayIcon->setIcon(QIcon(":/icons/toolbar_testnet"));
                 toggleHideAction->setIcon(QIcon(":/icons/toolbar_testnet"));
             }
@@ -651,7 +651,7 @@ void BitcoinGUI::createTrayIcon()
     trayIcon = new QSystemTrayIcon(this);
     trayIconMenu = new QMenu(this);
     trayIcon->setContextMenu(trayIconMenu);
-    trayIcon->setToolTip(tr("Katana client"));
+    trayIcon->setToolTip(tr("Psbrcoin client"));
     trayIcon->setIcon(QIcon(":/icons/toolbar"));
     connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
             this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
@@ -722,7 +722,7 @@ void BitcoinGUI::setNumConnections(int count)
     default: icon = fUseBlackTheme ? ":/icons/black/connect_4" : ":/icons/connect_4"; break;
     }
     labelConnectionsIcon->setPixmap(QIcon(icon).pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
-    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Katana network", "", count));
+    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Psbrcoin network", "", count));
 }
 
 void BitcoinGUI::setNumBlocks(int count)
@@ -808,7 +808,7 @@ void BitcoinGUI::setNumBlocks(int count)
 
 void BitcoinGUI::message(const QString &title, const QString &message, bool modal, unsigned int style)
 {
-    QString strTitle = tr("Katana") + " - ";
+    QString strTitle = tr("Psbrcoin") + " - ";
     // Default to information icon
     int nMBoxIcon = QMessageBox::Information;
     int nNotifyIcon = Notificator::Information;
@@ -1080,7 +1080,7 @@ void BitcoinGUI::gotoinvestPage()
   setToolBarDefaultIcons();
   investAction->setIcon(QIcon(":/icons/investoverlay"));
   investAction->setChecked(true);
-  QDesktopServices::openUrl(QUrl("https://www.k2xmedia.com"));
+  QDesktopServices::openUrl(QUrl("https://www.psbrmedia.com"));
   exportAction->setEnabled(false);
   disconnect(exportAction, SIGNAL(triggered()), 0, 0);
 }
@@ -1149,7 +1149,7 @@ void BitcoinGUI::dropEvent(QDropEvent *event)
         if (nValidUrisFound)
             gotoSendCoinsPage();
         else
-            notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid Katana address or malformed URI parameters."));
+            notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid Psbrcoin address or malformed URI parameters."));
     }
 
     event->acceptProposedAction();
@@ -1164,7 +1164,7 @@ void BitcoinGUI::handleURI(QString strURI)
         gotoSendCoinsPage();
     }
     else
-        notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid Katana address or malformed URI parameters."));
+        notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid Psbrcoin address or malformed URI parameters."));
 }
 
 void BitcoinGUI::setEncryptionStatus(int status)
@@ -1245,7 +1245,7 @@ void BitcoinGUI::changePassphrase()
 
 void BitcoinGUI::pioClicked()
 {
-    QDesktopServices::openUrl(QUrl("https://www.k2xmedia.com/"));
+    QDesktopServices::openUrl(QUrl("https://www.psbrmedia.com/"));
 }
 
 void BitcoinGUI::bitcointalkClicked()
@@ -1255,11 +1255,11 @@ void BitcoinGUI::bitcointalkClicked()
 
 void BitcoinGUI::chainClicked()
 {
-    QDesktopServices::openUrl(QUrl("https://katana.herokuapp.com"));
+    QDesktopServices::openUrl(QUrl("https://psbrcoin.herokuapp.com"));
 }
 void BitcoinGUI::explorerClicked()
 {
-    QDesktopServices::openUrl(QUrl("http://katanacoins.com"));
+    QDesktopServices::openUrl(QUrl("http://psbrcoincoins.com"));
 }
 
 

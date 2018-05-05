@@ -6,21 +6,21 @@
     <message>
         <location filename="src/qt/forms/aboutdialog.ui" line="14"/>
         <location filename="build/ui_aboutdialog.h" line="130"/>
-        <source>About Katana</source>
-        <translation>Katanaについて</translation>
+        <source>About Psbrcoin</source>
+        <translation>Psbrcoinについて</translation>
     </message>
     <message>
         <location filename="src/qt/forms/aboutdialog.ui" line="53"/>
         <location filename="build/ui_aboutdialog.h" line="131"/>
-        <source>&lt;b&gt;Katana&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Katana&lt;/b&gt;バージョン</translation>
+        <source>&lt;b&gt;Psbrcoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Psbrcoin&lt;/b&gt;バージョン</translation>
     </message>
     <message>
         <location filename="src/qt/forms/aboutdialog.ui" line="94"/>
         <location filename="build/ui_aboutdialog.h" line="132"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2017 The Katana developers</source>
+Copyright © 2017 The Psbrcoin developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -40,13 +40,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="src/qt/forms/addeditadrenalinenode.ui" line="14"/>
         <location filename="build/ui_addeditadrenalinenode.h" line="211"/>
-        <source>Add/Edit Katana Node</source>
+        <source>Add/Edit Psbrcoin Node</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="src/qt/forms/addeditadrenalinenode.ui" line="29"/>
         <location filename="build/ui_addeditadrenalinenode.h" line="212"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enter an Alias (friendly name) for your Master Node and its address (either clearnet IP and port or Tor onion address and port). The address should be in the format 123.456.789.123:9999 or akjdsafxjkhasdf.onion:9999. You must send exactly 500 K2X to the collateral address.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enter an Alias (friendly name) for your Master Node and its address (either clearnet IP and port or Tor onion address and port). The address should be in the format 123.456.789.123:9999 or akjdsafxjkhasdf.onion:9999. You must send exactly 500 PSBR to the collateral address.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -115,8 +115,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="src/qt/forms/addressbookpage.ui" line="20"/>
         <location filename="build/ui_addressbookpage.h" line="128"/>
-        <source>These are your Katana addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>支払いを受けるためのKatanaアドレスです。誰があなたに支払いをしたのかを追跡するために、それぞれの支払者へ別のアドレスを伝えることもできます。</translation>
+        <source>These are your Psbrcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>支払いを受けるためのPsbrcoinアドレスです。誰があなたに支払いをしたのかを追跡するために、それぞれの支払者へ別のアドレスを伝えることもできます。</translation>
     </message>
     <message>
         <location filename="src/qt/forms/addressbookpage.ui" line="36"/>
@@ -157,7 +157,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="src/qt/forms/addressbookpage.ui" line="87"/>
         <location filename="build/ui_addressbookpage.h" line="142"/>
-        <source>Sign a message to prove you own a Katana address</source>
+        <source>Sign a message to prove you own a Psbrcoin address</source>
         <translation>このアドレスの所有者であることを証明するためにメッセージに署名する</translation>
     </message>
     <message>
@@ -169,8 +169,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="src/qt/forms/addressbookpage.ui" line="97"/>
         <location filename="build/ui_addressbookpage.h" line="146"/>
-        <source>Verify a message to ensure it was signed with a specified Katana address</source>
-        <translation>指定されたKatanaアドレスで署名されたことを確認するためにメッセージを検証します</translation>
+        <source>Verify a message to ensure it was signed with a specified Psbrcoin address</source>
+        <translation>指定されたPsbrcoinアドレスで署名されたことを確認するためにメッセージを検証します</translation>
     </message>
     <message>
         <location filename="src/qt/forms/addressbookpage.ui" line="100"/>
@@ -250,7 +250,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="src/qt/forms/adrenalinenodeconfigdialog.ui" line="20"/>
         <location filename="build/ui_adrenalinenodeconfigdialog.h" line="63"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This pane shows an example katana.conf template with the necessary masternode settings.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This pane shows an example psbrcoin.conf template with the necessary masternode settings.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -355,8 +355,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="src/qt/askpassphrasedialog.cpp" line="119"/>
-        <source>Katana will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>ただいま、暗号化手順を完成するため、KatanaQTは閉じます。尚、ウォレットを暗号化をされたにしても、PCのウイルスから盗難防止の報償できないことを、ご理解をお願い足します。</translation>
+        <source>Psbrcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>ただいま、暗号化手順を完成するため、PsbrcoinQTは閉じます。尚、ウォレットを暗号化をされたにしても、PCのウイルスから盗難防止の報償できないことを、ご理解をお願い足します。</translation>
     </message>
     <message>
         <location filename="src/qt/askpassphrasedialog.cpp" line="123"/>
@@ -428,14 +428,14 @@ This product includes software developed by the OpenSSL Project for use in the O
     <name>BitcoinGUI</name>
     <message>
         <location filename="src/qt/bitcoin.cpp" line="112"/>
-        <source>A fatal error occurred. Katana can no longer continue safely and will quit.</source>
-        <translation>致命的なエラーが発生しました。Katana-QTは安全に継続できないため終了します。</translation>
+        <source>A fatal error occurred. Psbrcoin can no longer continue safely and will quit.</source>
+        <translation>致命的なエラーが発生しました。Psbrcoin-QTは安全に継続できないため終了します。</translation>
     </message>
     <message>
         <location filename="src/qt/bitcoingui.cpp" line="99"/>
         <location filename="src/qt/bitcoingui.cpp" line="811"/>
-        <source>Katana</source>
-        <translation>Katana</translation>
+        <source>Psbrcoin</source>
+        <translation>Psbrcoin</translation>
     </message>
     <message>
         <location filename="src/qt/bitcoingui.cpp" line="99"/>
@@ -469,7 +469,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="src/qt/bitcoingui.cpp" line="292"/>
-        <source>Senhistory.pngd coins to a Katana address</source>
+        <source>Senhistory.pngd coins to a Psbrcoin address</source>
         <translation>コインを送信する</translation>
     </message>
     <message>
@@ -519,17 +519,17 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="src/qt/bitcoingui.cpp" line="320"/>
-        <source>Katana Website</source>
+        <source>Psbrcoin Website</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="src/qt/bitcoingui.cpp" line="325"/>
-        <source>&amp;KATANA DISCORD</source>
+        <source>&amp;PSBRCOIN DISCORD</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="src/qt/bitcoingui.cpp" line="326"/>
-        <source>Katana Discord</source>
+        <source>Psbrcoin Discord</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -574,12 +574,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="src/qt/bitcoingui.cpp" line="373"/>
-        <source>&amp;Katana Website</source>
+        <source>&amp;Psbrcoin Website</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="src/qt/bitcoingui.cpp" line="374"/>
-        <source>Visit the Official Katana website</source>
+        <source>Visit the Official Psbrcoin website</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -589,38 +589,38 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="src/qt/bitcoingui.cpp" line="376"/>
-        <source>Visit the Bitcointalk Katana discussion thread</source>
+        <source>Visit the Bitcointalk Psbrcoin discussion thread</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="src/qt/bitcoingui.cpp" line="377"/>
-        <source>&amp;Katana Slack</source>
+        <source>&amp;Psbrcoin Slack</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="src/qt/bitcoingui.cpp" line="378"/>
-        <source>Join Katana Slack</source>
+        <source>Join Psbrcoin Slack</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="src/qt/bitcoingui.cpp" line="379"/>
-        <source>&amp;Katana Explorer</source>
+        <source>&amp;Psbrcoin Explorer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="src/qt/bitcoingui.cpp" line="380"/>
-        <source>Katana Explorer</source>
+        <source>Psbrcoin Explorer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="src/qt/bitcoingui.cpp" line="381"/>
-        <source>&amp;About Katana</source>
-        <translation>Katanaについて(&amp;A)</translation>
+        <source>&amp;About Psbrcoin</source>
+        <translation>Psbrcoinについて(&amp;A)</translation>
     </message>
     <message>
         <location filename="src/qt/bitcoingui.cpp" line="382"/>
-        <source>Show information about Katana</source>
-        <translation>Katanaについての情報を見る</translation>
+        <source>Show information about Psbrcoin</source>
+        <translation>Psbrcoinについての情報を見る</translation>
     </message>
     <message>
         <location filename="src/qt/bitcoingui.cpp" line="384"/>
@@ -639,8 +639,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="src/qt/bitcoingui.cpp" line="388"/>
-        <source>Modify configuration options for Katana</source>
-        <translation>Katanaの設定オプションを変更</translation>
+        <source>Modify configuration options for Psbrcoin</source>
+        <translation>Psbrcoinの設定オプションを変更</translation>
     </message>
     <message>
         <location filename="src/qt/bitcoingui.cpp" line="390"/>
@@ -761,14 +761,14 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location filename="src/qt/bitcoingui.cpp" line="572"/>
         <location filename="src/qt/bitcoingui.cpp" line="654"/>
-        <source>Katana client</source>
-        <translation>Katanaクライアント</translation>
+        <source>Psbrcoin client</source>
+        <translation>Psbrcoinクライアント</translation>
     </message>
     <message numerus="yes">
         <location filename="src/qt/bitcoingui.cpp" line="725"/>
-        <source>%n active connection(s) to Katana network</source>
+        <source>%n active connection(s) to Psbrcoin network</source>
         <translation>
-            <numerusform>%nのKatanaネットワークへのアクティブな接続</numerusform>
+            <numerusform>%nのPsbrcoinネットワークへのアクティブな接続</numerusform>
         </translation>
     </message>
     <message>
@@ -907,8 +907,8 @@ Message: %4
     <message>
         <location filename="src/qt/bitcoingui.cpp" line="1152"/>
         <location filename="src/qt/bitcoingui.cpp" line="1167"/>
-        <source>URI can not be parsed! This can be caused by an invalid Katana address or malformed URI parameters.</source>
-        <translation>URIのパーズができませんでした！。原因は無効なKatanaアドレスか不正なURIパラメータ。</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Psbrcoin address or malformed URI parameters.</source>
+        <translation>URIのパーズができませんでした！。原因は無効なPsbrcoinアドレスか不正なURIパラメータ。</translation>
     </message>
     <message>
         <location filename="src/qt/bitcoingui.cpp" line="1175"/>
@@ -1506,13 +1506,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/forms/darksendconfig.ui" line="78"/>
         <location filename="build/ui_darksendconfig.h" line="102"/>
-        <source>Use 2 separate masternodes to mix funds up to 1000 K2X</source>
+        <source>Use 2 separate masternodes to mix funds up to 1000 PSBR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="src/qt/forms/darksendconfig.ui" line="91"/>
         <location filename="build/ui_darksendconfig.h" line="103"/>
-        <source>Use 8 separate masternodes to mix funds up to 1000 K2X</source>
+        <source>Use 8 separate masternodes to mix funds up to 1000 PSBR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1524,13 +1524,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/forms/darksendconfig.ui" line="117"/>
         <location filename="build/ui_darksendconfig.h" line="105"/>
-        <source>This option is the quickest and will cost about ~0.025 K2X to anonymize 1000 K2X</source>
+        <source>This option is the quickest and will cost about ~0.025 PSBR to anonymize 1000 PSBR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="src/qt/forms/darksendconfig.ui" line="130"/>
         <location filename="build/ui_darksendconfig.h" line="106"/>
-        <source>This option is moderately fast and will cost about 0.05 K2X to anonymize 1000 K2X</source>
+        <source>This option is moderately fast and will cost about 0.05 PSBR to anonymize 1000 PSBR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1542,7 +1542,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/forms/darksendconfig.ui" line="156"/>
         <location filename="build/ui_darksendconfig.h" line="108"/>
-        <source>0.1 K2X per 1000 K2X you anonymize.</source>
+        <source>0.1 PSBR per 1000 PSBR you anonymize.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1554,12 +1554,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="src/qt/darksendconfig.cpp" line="44"/>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Katana&apos;s configuration screen.</source>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Psbrcoin&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="src/qt/darksendconfig.cpp" line="59"/>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Katana&apos;s configuration screen.</source>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Psbrcoin&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1640,8 +1640,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="src/qt/editaddressdialog.cpp" line="117"/>
-        <source>The entered address &quot;%1&quot; is not a valid Katana address.</source>
-        <translation>入力されたアドレス &quot;%1&quot; 、有効なKatanaアドレスではありません。</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Psbrcoin address.</source>
+        <translation>入力されたアドレス &quot;%1&quot; 、有効なPsbrcoinアドレスではありません。</translation>
     </message>
     <message>
         <location filename="src/qt/editaddressdialog.cpp" line="122"/>
@@ -1664,8 +1664,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/guiutil.cpp" line="690"/>
         <location filename="src/qt/guiutil.cpp" line="702"/>
-        <source>Katana-Qt</source>
-        <translation>Katana-QT</translation>
+        <source>Psbrcoin-Qt</source>
+        <translation>Psbrcoin-QT</translation>
     </message>
     <message>
         <location filename="src/qt/guiutil.cpp" line="690"/>
@@ -1933,8 +1933,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/forms/masternodemanager.ui" line="41"/>
         <location filename="build/ui_masternodemanager.h" line="253"/>
-        <source>Katana Network</source>
-        <translation>Katanaネットワーク</translation>
+        <source>Psbrcoin Network</source>
+        <translation>Psbrcoinネットワーク</translation>
     </message>
     <message>
         <location filename="src/qt/forms/masternodemanager.ui" line="63"/>
@@ -1975,7 +1975,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/forms/masternodemanager.ui" line="101"/>
         <location filename="build/ui_masternodemanager.h" line="251"/>
-        <source>Katana Node Count:</source>
+        <source>Psbrcoin Node Count:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2161,7 +2161,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/forms/messagepage.ui" line="162"/>
         <location filename="build/ui_messagepage.h" line="205"/>
-        <source>Sign a message to prove you own a Katana address</source>
+        <source>Sign a message to prove you own a Psbrcoin address</source>
         <translation>このアドレスの所有者であることを証明するためにメッセージに署名する</translation>
     </message>
     <message>
@@ -2274,14 +2274,14 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/forms/optionsdialog.ui" line="128"/>
         <location filename="build/ui_optionsdialog.h" line="402"/>
-        <source>Automatically start Katana after logging in to the system.</source>
-        <translation>システムのログインした際、自動的にKatana-QTを起動する。</translation>
+        <source>Automatically start Psbrcoin after logging in to the system.</source>
+        <translation>システムのログインした際、自動的にPsbrcoin-QTを起動する。</translation>
     </message>
     <message>
         <location filename="src/qt/forms/optionsdialog.ui" line="131"/>
         <location filename="build/ui_optionsdialog.h" line="404"/>
-        <source>&amp;Start Katana on system login</source>
-        <translation>システムログイン次第、Katanaをスタート</translation>
+        <source>&amp;Start Psbrcoin on system login</source>
+        <translation>システムログイン次第、Psbrcoinをスタート</translation>
     </message>
     <message>
         <location filename="src/qt/forms/optionsdialog.ui" line="151"/>
@@ -2304,7 +2304,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/forms/optionsdialog.ui" line="189"/>
         <location filename="build/ui_optionsdialog.h" line="412"/>
-        <source>Amount of Katana to keep anonymized</source>
+        <source>Amount of Psbrcoin to keep anonymized</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2316,8 +2316,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/forms/optionsdialog.ui" line="219"/>
         <location filename="build/ui_optionsdialog.h" line="415"/>
-        <source>Automatically open the Katana client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自動的にルーター上の Katana クライアントのポートを開きます。あなたのルーターが UPnP に対応していて、それが有効になっている場合に作動します。</translation>
+        <source>Automatically open the Psbrcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自動的にルーター上の Psbrcoin クライアントのポートを開きます。あなたのルーターが UPnP に対応していて、それが有効になっている場合に作動します。</translation>
     </message>
     <message>
         <location filename="src/qt/forms/optionsdialog.ui" line="222"/>
@@ -2328,7 +2328,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/forms/optionsdialog.ui" line="229"/>
         <location filename="build/ui_optionsdialog.h" line="419"/>
-        <source>Connect to the Katana network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Psbrcoin network through a SOCKS5 proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2406,8 +2406,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/forms/optionsdialog.ui" line="383"/>
         <location filename="build/ui_optionsdialog.h" line="442"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Katana.</source>
-        <translation>ユーザのインターフェースの言語を設定できます。Katana-QT再起動後に有効となります。</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Psbrcoin.</source>
+        <translation>ユーザのインターフェースの言語を設定できます。Psbrcoin-QT再起動後に有効となります。</translation>
     </message>
     <message>
         <location filename="src/qt/forms/optionsdialog.ui" line="394"/>
@@ -2471,8 +2471,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/optionsdialog.cpp" line="198"/>
         <location filename="src/qt/optionsdialog.cpp" line="207"/>
-        <source>This setting will take effect after restarting Katana.</source>
-        <translation>この設定はKatanaを再起動した後に有効となります。</translation>
+        <source>This setting will take effect after restarting Psbrcoin.</source>
+        <translation>この設定はPsbrcoinを再起動した後に有効となります。</translation>
     </message>
     <message>
         <location filename="src/qt/optionsdialog.cpp" line="236"/>
@@ -2501,8 +2501,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="build/ui_overviewpage.h" line="605"/>
         <location filename="build/ui_overviewpage.h" line="646"/>
         <location filename="build/ui_overviewpage.h" line="672"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Katana network after a connection is established, but this process has not completed yet.</source>
-        <translation>表示されている情報は最新ではない可能性があります。接続が確立された後、ウォレットは自動的にKatanaネットワークと同期しますが、まだ完了していません。</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Psbrcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>表示されている情報は最新ではない可能性があります。接続が確立された後、ウォレットは自動的にPsbrcoinネットワークと同期しますが、まだ完了していません。</translation>
     </message>
     <message>
         <location filename="src/qt/forms/overviewpage.ui" line="121"/>
@@ -2643,7 +2643,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/forms/overviewpage.ui" line="1030"/>
         <location filename="build/ui_overviewpage.h" line="653"/>
-        <source>0 K2X / 0 Rounds</source>
+        <source>0 PSBR / 0 Rounds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2833,7 +2833,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>PaymentServer</name>
     <message>
         <location filename="src/qt/paymentserver.cpp" line="107"/>
-        <source>Cannot start katana: click-to-pay handler</source>
+        <source>Cannot start psbrcoin: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2968,8 +2968,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/forms/rpcconsole.ui" line="14"/>
         <location filename="build/ui_rpcconsole.h" line="807"/>
-        <source>Katana - Debug window</source>
-        <translation>Katana - デバッグウインドウ</translation>
+        <source>Psbrcoin - Debug window</source>
+        <translation>Psbrcoin - デバッグウインドウ</translation>
     </message>
     <message>
         <location filename="src/qt/forms/rpcconsole.ui" line="24"/>
@@ -2980,8 +2980,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/forms/rpcconsole.ui" line="36"/>
         <location filename="build/ui_rpcconsole.h" line="808"/>
-        <source>Katana Core</source>
-        <translation>Katanaコア</translation>
+        <source>Psbrcoin Core</source>
+        <translation>Psbrcoinコア</translation>
     </message>
     <message>
         <location filename="src/qt/forms/rpcconsole.ui" line="43"/>
@@ -3114,8 +3114,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/forms/rpcconsole.ui" line="322"/>
         <location filename="build/ui_rpcconsole.h" line="833"/>
-        <source>Open the Katana debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>現在のデータディレクトリから Katanaのデバッグ用ログファイルを開きます。ログファイルが巨大な場合、数秒かかることがあります。</translation>
+        <source>Open the Psbrcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>現在のデータディレクトリから Psbrcoinのデバッグ用ログファイルを開きます。ログファイルが巨大な場合、数秒かかることがあります。</translation>
     </message>
     <message>
         <location filename="src/qt/forms/rpcconsole.ui" line="325"/>
@@ -3132,8 +3132,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/forms/rpcconsole.ui" line="348"/>
         <location filename="build/ui_rpcconsole.h" line="838"/>
-        <source>Show the Katana-Qt help message to get a list with possible Katana command-line options.</source>
-        <translation>Katana-QTのコマンドラインのヘルプ情報を表示する。</translation>
+        <source>Show the Psbrcoin-Qt help message to get a list with possible Psbrcoin command-line options.</source>
+        <translation>Psbrcoin-QTのコマンドラインのヘルプ情報を表示する。</translation>
     </message>
     <message>
         <location filename="src/qt/forms/rpcconsole.ui" line="351"/>
@@ -3346,8 +3346,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="src/qt/rpcconsole.cpp" line="419"/>
-        <source>Welcome to the Katana RPC console.</source>
-        <translation>Katana RPCコンソールへようこそ。</translation>
+        <source>Welcome to the Psbrcoin RPC console.</source>
+        <translation>Psbrcoin RPCコンソールへようこそ。</translation>
     </message>
     <message>
         <location filename="src/qt/rpcconsole.cpp" line="420"/>
@@ -3485,8 +3485,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location filename="build/ui_sendcoinsdialog.h" line="519"/>
         <location filename="build/ui_sendcoinsdialog.h" line="523"/>
         <location filename="build/ui_sendcoinsdialog.h" line="525"/>
-        <source>0.00 K2X</source>
-        <translation>123.456 K2X {0.00 ?}</translation>
+        <source>0.00 PSBR</source>
+        <translation>123.456 PSBR {0.00 ?}</translation>
     </message>
     <message>
         <location filename="src/qt/forms/sendcoinsdialog.ui" line="346"/>
@@ -3581,8 +3581,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/forms/sendcoinsdialog.ui" line="777"/>
         <location filename="build/ui_sendcoinsdialog.h" line="539"/>
-        <source>123.456 K2X</source>
-        <translation>123.456 K2X</translation>
+        <source>123.456 PSBR</source>
+        <translation>123.456 PSBR</translation>
     </message>
     <message>
         <location filename="src/qt/forms/sendcoinsdialog.ui" line="808"/>
@@ -3598,8 +3598,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="src/qt/sendcoinsdialog.cpp" line="46"/>
-        <source>Enter a Katana address (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Katanaアドレスの入力 (例；Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>Enter a Psbrcoin address (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Psbrcoinアドレスの入力 (例；Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
     <message>
         <location filename="src/qt/sendcoinsdialog.cpp" line="89"/>
@@ -3731,7 +3731,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="src/qt/sendcoinsdialog.cpp" line="625"/>
-        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to 1000 K2X.</source>
+        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to 1000 PSBR.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3756,7 +3756,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="src/qt/sendcoinsdialog.cpp" line="858"/>
-        <source>Warning: Invalid Katana address</source>
+        <source>Warning: Invalid Psbrcoin address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3824,7 +3824,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/forms/sendcoinsentry.ui" line="125"/>
         <location filename="build/ui_sendcoinsentry.h" line="159"/>
-        <source>The address to send the payment to (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
+        <source>The address to send the payment to (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
         <translation>アドレス帳に追加するには、このアドレスのラベルを入力します</translation>
     </message>
     <message>
@@ -3841,8 +3841,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="src/qt/sendcoinsentry.cpp" line="28"/>
-        <source>Enter a Katana address (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Katanaアドレスの入力 (例；Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>Enter a Psbrcoin address (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Psbrcoinアドレスの入力 (例；Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
 </context>
 <context>
@@ -3927,8 +3927,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="src/qt/sendmessagesdialog.cpp" line="37"/>
-        <source>Enter a Katana address (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Katanaアドレスの入力 (例；Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>Enter a Psbrcoin address (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Psbrcoinアドレスの入力 (例；Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
     <message>
         <location filename="src/qt/sendmessagesdialog.cpp" line="158"/>
@@ -4002,7 +4002,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/forms/sendmessagesentry.ui" line="41"/>
         <location filename="build/ui_sendmessagesentry.h" line="166"/>
-        <source>The address to send the payment to  (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
+        <source>The address to send the payment to  (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4066,8 +4066,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="src/qt/sendmessagesentry.cpp" line="28"/>
-        <source>Enter a Katana address (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Katanaアドレスの入力 (例；Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>Enter a Psbrcoin address (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Psbrcoinアドレスの入力 (例；Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
     <message>
         <location filename="src/qt/sendmessagesentry.cpp" line="29"/>
@@ -4105,8 +4105,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/forms/signverifymessagedialog.ui" line="51"/>
         <location filename="build/ui_signverifymessagedialog.h" line="285"/>
-        <source>The address to sign the message with (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>メッセージに署名するアドレス(例：Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>The address to sign the message with (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>メッセージに署名するアドレス(例：Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
     <message>
         <location filename="src/qt/forms/signverifymessagedialog.ui" line="61"/>
@@ -4151,8 +4151,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/forms/signverifymessagedialog.ui" line="148"/>
         <location filename="build/ui_signverifymessagedialog.h" line="309"/>
-        <source>Sign the message to prove you own this Katana address</source>
-        <translation>あなたがこのKatanaアドレスを所有していることを証明するためにメッセージに署名してください</translation>
+        <source>Sign the message to prove you own this Psbrcoin address</source>
+        <translation>あなたがこのPsbrcoinアドレスを所有していることを証明するためにメッセージに署名してください</translation>
     </message>
     <message>
         <location filename="src/qt/forms/signverifymessagedialog.ui" line="165"/>
@@ -4185,14 +4185,14 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/forms/signverifymessagedialog.ui" line="254"/>
         <location filename="build/ui_signverifymessagedialog.h" line="320"/>
-        <source>The address the message was signed with (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>メッセージの署名するアドレス(例：Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>The address the message was signed with (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>メッセージの署名するアドレス(例：Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
     <message>
         <location filename="src/qt/forms/signverifymessagedialog.ui" line="294"/>
         <location filename="build/ui_signverifymessagedialog.h" line="330"/>
-        <source>Verify the message to ensure it was signed with the specified Katana address</source>
-        <translation>メッセージが指定されたKatanaアドレスで署名されていることを確認する</translation>
+        <source>Verify the message to ensure it was signed with the specified Psbrcoin address</source>
+        <translation>メッセージが指定されたPsbrcoinアドレスで署名されていることを確認する</translation>
     </message>
     <message>
         <location filename="src/qt/forms/signverifymessagedialog.ui" line="311"/>
@@ -4203,8 +4203,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="src/qt/signverifymessagedialog.cpp" line="27"/>
         <location filename="src/qt/signverifymessagedialog.cpp" line="30"/>
-        <source>Enter a Katana address (e.g. Katana_Address_Here_QsAqFckyf9pRHN)</source>
-        <translation>Katanaアドレスの入力 (例；Katana_Address_Here_QsAqFckyf9pRHN)</translation>
+        <source>Enter a Psbrcoin address (e.g. Psbrcoin_Address_Here_QsAqFckyf9pRHN)</source>
+        <translation>Psbrcoinアドレスの入力 (例；Psbrcoin_Address_Here_QsAqFckyf9pRHN)</translation>
     </message>
     <message>
         <location filename="src/qt/signverifymessagedialog.cpp" line="28"/>
@@ -4213,8 +4213,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="src/qt/signverifymessagedialog.cpp" line="31"/>
-        <source>Enter Katana signature</source>
-        <translation>Katana署名の入力</translation>
+        <source>Enter Psbrcoin signature</source>
+        <translation>Psbrcoin署名の入力</translation>
     </message>
     <message>
         <location filename="src/qt/signverifymessagedialog.cpp" line="116"/>
@@ -4951,13 +4951,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=katanarpc
+rpcuser=psbrcoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Psbrcoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
@@ -4973,8 +4973,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location filename="src/qt/bitcoinstrings.cpp" line="27"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Katana will not work properly.</source>
-        <translation> 警告：コンピュータの日付と時間を調べてください。時間ずれている場合、Katana-QTは正しく行動しません。</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Psbrcoin will not work properly.</source>
+        <translation> 警告：コンピュータの日付と時間を調べてください。時間ずれている場合、Psbrcoin-QTは正しく行動しません。</translation>
     </message>
     <message>
         <location filename="src/qt/bitcoinstrings.cpp" line="30"/>
@@ -4988,12 +4988,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location filename="src/qt/bitcoinstrings.cpp" line="32"/>
-        <source>Specify configuration file (default: katana.conf)</source>
+        <source>Specify configuration file (default: psbrcoin.conf)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="src/qt/bitcoinstrings.cpp" line="33"/>
-        <source>Specify pid file (default: katanad.pid)</source>
+        <source>Specify pid file (default: psbrcoind.pid)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5368,7 +5368,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location filename="src/qt/bitcoinstrings.cpp" line="133"/>
-        <source>Initialization sanity check failed. Katana is shutting down.</source>
+        <source>Initialization sanity check failed. Psbrcoin is shutting down.</source>
         <translation></translation>
     </message>
     <message>
@@ -5378,7 +5378,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location filename="src/qt/bitcoinstrings.cpp" line="135"/>
-        <source>Cannot obtain a lock on data directory %s. Katana is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Psbrcoin is probably already running.</source>
         <translation></translation>
     </message>
     <message>
@@ -5475,13 +5475,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location filename="src/qt/bitcoinstrings.cpp" line="161"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Katana</source>
-        <translation>wallet.datファイルの読み込みエラー: Katana-QTの最新バージョンが必要です</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Psbrcoin</source>
+        <translation>wallet.datファイルの読み込みエラー: Psbrcoin-QTの最新バージョンが必要です</translation>
     </message>
     <message>
         <location filename="src/qt/bitcoinstrings.cpp" line="162"/>
-        <source>Wallet needed to be rewritten: restart Katana to complete</source>
-        <translation>ウォレットのデータを書き直さなければなりません：Katana-QTを再起動してください</translation>
+        <source>Wallet needed to be rewritten: restart Psbrcoin to complete</source>
+        <translation>ウォレットのデータを書き直さなければなりません：Psbrcoin-QTを再起動してください</translation>
     </message>
     <message>
         <location filename="src/qt/bitcoinstrings.cpp" line="163"/>
@@ -5515,8 +5515,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location filename="src/qt/bitcoinstrings.cpp" line="169"/>
-        <source>Unable to bind to %s on this computer. Katana is probably already running.</source>
-        <translation>このコンピューターで%sにバインドできませんでした。おそらくKatana-QTは既に実行中です。</translation>
+        <source>Unable to bind to %s on this computer. Psbrcoin is probably already running.</source>
+        <translation>このコンピューターで%sにバインドできませんでした。おそらくPsbrcoin-QTは既に実行中です。</translation>
     </message>
     <message>
         <location filename="src/qt/bitcoinstrings.cpp" line="171"/>
@@ -5525,8 +5525,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location filename="src/qt/bitcoinstrings.cpp" line="172"/>
-        <source>Katana version</source>
-        <translation>Katanaバージョン</translation>
+        <source>Psbrcoin version</source>
+        <translation>Psbrcoinバージョン</translation>
     </message>
     <message>
         <location filename="src/qt/bitcoinstrings.cpp" line="173"/>
@@ -5535,7 +5535,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Katana Alert&quot; admin@foo.c
     </message>
     <message>
         <location filename="src/qt/bitcoinstrings.cpp" line="174"/>
-        <source>Send command to -server or katanad</source>
+        <source>Send command to -server or psbrcoind</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5717,7 +5717,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <location filename="src/qt/forms/tradingdialog.ui" line="4991"/>
         <location filename="build/ui_tradingdialog.h" line="1567"/>
         <location filename="build/ui_tradingdialog.h" line="1631"/>
-        <source>K2X Available:</source>
+        <source>PSBR Available:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5729,7 +5729,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="src/qt/forms/tradingdialog.ui" line="1151"/>
         <location filename="build/ui_tradingdialog.h" line="1569"/>
-        <source> K2X</source>
+        <source> PSBR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5753,7 +5753,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <location filename="build/ui_tradingdialog.h" line="1573"/>
         <location filename="build/ui_tradingdialog.h" line="1597"/>
         <location filename="build/ui_tradingdialog.h" line="1610"/>
-        <source>K2X</source>
+        <source>PSBR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5799,13 +5799,13 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="src/qt/forms/tradingdialog.ui" line="2242"/>
         <location filename="build/ui_tradingdialog.h" line="1583"/>
-        <source>Buy K2X</source>
+        <source>Buy PSBR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="src/qt/forms/tradingdialog.ui" line="2249"/>
         <location filename="build/ui_tradingdialog.h" line="1584"/>
-        <source>Sell K2X</source>
+        <source>Sell PSBR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5825,13 +5825,13 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="src/qt/forms/tradingdialog.ui" line="2323"/>
         <location filename="build/ui_tradingdialog.h" line="1588"/>
-        <source>Demand: 0.00000000 K2X</source>
+        <source>Demand: 0.00000000 PSBR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="src/qt/forms/tradingdialog.ui" line="2333"/>
         <location filename="build/ui_tradingdialog.h" line="1589"/>
-        <source>Supply: 0.00000000 K2X</source>
+        <source>Supply: 0.00000000 PSBR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5857,7 +5857,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="src/qt/forms/tradingdialog.ui" line="2833"/>
         <location filename="build/ui_tradingdialog.h" line="1595"/>
-        <source>Amount in K2X:</source>
+        <source>Amount in PSBR:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5875,7 +5875,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="src/qt/forms/tradingdialog.ui" line="3800"/>
         <location filename="build/ui_tradingdialog.h" line="1604"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Instructions:&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;To use the cross sending feature you need to have &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;K2X available to spend on Bittrex. If you don&apos;t have any &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;you can find your deposit address on the &amp;quot;Balance&amp;quot; tab.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;1. Enter the amount you want to receive in Bitcoin.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;2. Enter the Bitcoin address you are sending to.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;3. Check that the Total with fee&apos;s is correct.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;4. Press send and watch the magic happen.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Notes.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;Total w/ fees: N/A means you dont have enough K2X to sell !&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;All trades are done through Bittrex using your own balance and API keys.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;Encrypt and backup your wallet when using this feature.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;If you don&apos;t have a password you bittrex account will be accessible 24/7&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;Withdrawal fee of 0.002 and 0.25% taken by Bittrex.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Instructions:&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;To use the cross sending feature you need to have &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;PSBR available to spend on Bittrex. If you don&apos;t have any &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;you can find your deposit address on the &amp;quot;Balance&amp;quot; tab.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;1. Enter the amount you want to receive in Bitcoin.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;2. Enter the Bitcoin address you are sending to.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;3. Check that the Total with fee&apos;s is correct.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;4. Press send and watch the magic happen.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600; text-decoration: underline;&quot;&gt;Notes.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;Total w/ fees: N/A means you dont have enough PSBR to sell !&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;All trades are done through Bittrex using your own balance and API keys.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;Encrypt and backup your wallet when using this feature.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;If you don&apos;t have a password you bittrex account will be accessible 24/7&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;Withdrawal fee of 0.002 and 0.25% taken by Bittrex.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5899,7 +5899,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
         <location filename="src/qt/forms/tradingdialog.ui" line="4920"/>
         <location filename="build/ui_tradingdialog.h" line="1608"/>
         <location filename="build/ui_tradingdialog.h" line="1627"/>
-        <source>K2X Balance:</source>
+        <source>PSBR Balance:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5969,7 +5969,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="src/qt/forms/tradingdialog.ui" line="5049"/>
         <location filename="build/ui_tradingdialog.h" line="1635"/>
-        <source>K2X Pending:</source>
+        <source>PSBR Pending:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5981,7 +5981,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="src/qt/forms/tradingdialog.ui" line="5105"/>
         <location filename="build/ui_tradingdialog.h" line="1639"/>
-        <source>Generate K2X Coin Deposit Address</source>
+        <source>Generate PSBR Coin Deposit Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5999,7 +5999,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
     <message>
         <location filename="src/qt/forms/tradingdialog.ui" line="5240"/>
         <location filename="build/ui_tradingdialog.h" line="1649"/>
-        <source>Withdraw K2X:</source>
+        <source>Withdraw PSBR:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

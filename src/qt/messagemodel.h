@@ -67,7 +67,7 @@ struct MessageTableEntry
     }
 };
 
-/** Interface to Katana Secure Messaging from Qt view code. */
+/** Interface to Psbrcoin Secure Messaging from Qt view code. */
 class MessageModel : public QAbstractTableModel
 {
     Q_OBJECT
